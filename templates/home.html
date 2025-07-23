@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block title %}Home | FuelPredict{% endblock %}
+
+{% block content %}
+<section class="bg-gradient-to-br from-green-50 to-white py-20">
+  <div class="max-w-4xl mx-auto text-center px-6">
+    <h1 class="text-4xl md:text-5xl font-extrabold text-green-800 leading-tight font-sans">
+      🔋 Welcome to FuelPredict, {{ username }}!
+    </h1>
+    <p class="mt-6 text-lg text-gray-700">
+      FuelPredict is your intelligent tool for predicting fuel consumption, comparing fuel types,
+      and finding the best stations near you. Let’s drive smart.
+    </p>
+
+    <div class="mt-10 flex flex-col md:flex-row justify-center gap-6">
+      <a href="/dashboard" class="bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded shadow-lg transition">
+        🚗 Go to Dashboard
+      </a>
+      <a href="/fuel-types" class="bg-white border-2 border-green-600 text-green-700 hover:bg-green-100 font-semibold py-3 px-6 rounded transition">
+        ⛽ Explore Fuel Types
+      </a>
+    </div>
+  </div>
+</section>
+{% endblock %}

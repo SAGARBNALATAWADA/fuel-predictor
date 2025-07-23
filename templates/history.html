@@ -1,0 +1,86 @@
+{% extends 'base.html' %}
+{% block title %}Prediction History{% endblock %}
+{% block content %}
+
+<div class="flex justify-center pt-8 pb-10 px-2">
+  <div class="w-full max-w-2xl">
+    <div class="bg-white rounded-2xl shadow-xl mb-10 overflow-hidden animate-fadeInUp">
+      <!-- Header -->
+      <div class="bg-gradient-to-r from-blue-700 to-blue-400 text-white text-2xl font-bold px-6 py-5 text-center relative">
+        <span class="inline-flex items-center justify-center gap-3">
+          <i class="fa-solid fa-clock-rotate-left mr-1"></i> Prediction History
+        </span>
+        <div class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-16 h-1.5 bg-white rounded-xl opacity-30"></div>
+      </div>
+      <!-- Filters -->
+      <form method="get" class="flex flex-wrap items-end gap-4 px-5 py-4 border-b border-blue-50 bg-blue-50">
+        <div>
+          <label for="mode" class="font-semibold block mb-1 text-gray-700">Show</label>
+          <select id="mode" name="mode"
+                  class="block border border-gray-300 bg-white rounded-lg px-3 py-2 w-44 mb-0 outline-none focus:ring-2 focus:ring-blue-200 transition">
+            <option value="today" {% if mode=='today' %}selected{% endif %}>Today</option>
+            <option value="custom" {% if mode=='custom' %}selected{% endif %}>Custom Date</option>
+          </select>
+        </div>
+        <div id="custom-date-container"
+             class="flex-col"
+             style="display: {% if mode=='custom' %}flex{% else %}none{% endif %};">
+          <label for="date" class="font-semibold block mb-1 text-gray-700">Select Date</label>
+          <input type="date" id="date" name="date" value="{{ date or '' }}"
+                 class="block border border-gray-300 rounded-lg px-3 py-2 bg-white w-44 outline-none focus:ring-2 focus:ring-blue-200 transition"/>
+        </div>
+        <button type="submit" class="ml-auto bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg px-6 py-2 shadow transition">
+          Fetch
+        </button>
+      </form>
+
+      <!-- Table or Message -->
+      {% if rows %}
+        <div class="overflow-auto px-4 py-5 bg-white">
+          <table class="min-w-full border rounded-lg">
+            <thead>
+              <tr class="bg-blue-50 text-blue-800 text-left">
+                <th class="py-2 px-3 font-semibold">#</th>
+                <th class="py-2 px-3 font-semibold">Result</th>
+                <th class="py-2 px-3 font-semibold">Date / Time</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for r in rows %}
+                <tr class="even:bg-gray-50 hover:bg-blue-50 text-gray-700">
+                  <td class="py-2 px-3 font-semibold">{{ loop.index }}</td>
+                  <td class="py-2 px-3">{{ r.result }}</td>
+                  <td class="py-2 px-3">{{ r.ts }}</td>
+                </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      {% else %}
+        <div class="px-8 py-16 text-gray-500 text-center italic bg-white">
+          <p>No predictions found for this selection.</p>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+<style>
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px);}
+  to { opacity: 1; transform: translateY(0);}
+}
+.animate-fadeInUp {
+  animation: fadeInUp 0.8s both;
+}
+</style>
+<script>
+  // Toggle the date‑picker when "Custom Date" is selected
+  document.addEventListener('DOMContentLoaded', function(){
+    document.getElementById('mode').addEventListener('change', function() {
+      const show = this.value === 'custom';
+      document.getElementById('custom-date-container').style.display = show ? 'flex' : 'none';
+    });
+  });
+</script>
+{% endblock %}

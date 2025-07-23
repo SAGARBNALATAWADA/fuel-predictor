@@ -1,0 +1,4416 @@
+[
+  { "question": "Hi",                       "answer": "Hello! How can I help you with fuel or car‑care today?" },
+  { "question": "Hello",                    "answer": "Hi there! Feel free to ask any fuel‑related question." },
+  { "question": "Hey",                      "answer": "Hey! Need advice on saving fuel or something else?" },
+  { "question": "Good morning",             "answer": "Good morning! What can I do for you?" },
+  { "question": "Good evening",             "answer": "Good evening! Ask me anything about fuel efficiency." },
+  { "question": "How are you?",             "answer": "I’m running on clean code and plenty of energy. How are you?" },
+  { "question": "Who are you?",             "answer": "I’m FuelBot, your offline assistant for fuel efficiency and car questions." },
+  { "question": "What can you do?",         "answer": "I answer questions on fuel consumption, driving habits, maintenance, and more." },
+  { "question": "Thank you",                "answer": "You’re welcome! Safe driving." },
+  { "question": "Thanks",                   "answer": "Happy to help!" },
+
+  { "question": "How do I reduce fuel usage on highways?", "answer": "Maintain a steady speed, use cruise control, close windows at high speed, and keep tyres at the recommended pressure." },
+  { "question": "Does air conditioning increase fuel consumption?", "answer": "Yes. AC can raise fuel use by roughly 5‑10 % in city driving. Use cabin ventilation or open windows at low speed if possible." },
+  { "question": "What's the difference between petrol and diesel efficiency?", "answer": "Diesel engines are roughly 15 % more thermally efficient, but diesel fuel may cost more and engines need different maintenance and emissions controls." },
+
+  { "question": "What tyre pressure gives best fuel economy?", "answer": "Always use the manufacturer’s recommended pressure (found on the door jamb or manual). Under‑inflated tyres can increase fuel use by up to 3 %." },
+  { "question": "Does aggressive acceleration waste fuel?",    "answer": "Yes. Rapid starts and heavy throttle can lower mileage by 15‑30 % in stop‑and‑go traffic." },
+  { "question": "Is premium petrol worth it for my car?",      "answer": "Only if your car’s owner’s manual says premium is required. Otherwise, it gives no efficiency benefit." },
+  { "question": "How often should I change my engine air filter?", "answer": "Typically every 12,000–15,000 km or as recommended. A clogged filter can reduce performance and mileage." },
+  { "question": "Do roof racks affect fuel economy?",          "answer": "Yes—carrying an empty roof rack can cut highway mileage by 3–8 %. Remove racks or boxes when not in use." },
+  { "question": "What is hypermiling?",                        "answer": "Hypermiling is a set of driving techniques to maximize fuel efficiency, such as smooth acceleration, anticipating traffic, and coasting when safe." },
+  { "question": "Does octane rating affect mileage?",          "answer": "Octane itself doesn’t add energy; higher octane only prevents knock in high‑compression engines. Mileage difference is negligible unless knock was limiting performance." },
+  { "question": "How do I calculate km per litre?",            "answer": "Fill the tank, reset the trip meter, drive normally, refill and note the litres. Divide kilometres driven by litres added." },
+  { "question": "Should I warm up my engine before driving?",  "answer": "Modern fuel‑injected cars need only 30 seconds. Idling longer wastes fuel—drive gently until the engine reaches operating temp." },
+  { "question": "Does using cruise control save fuel?",        "answer": "On flat highways, yes—by avoiding speed fluctuations. On hilly roads it can sometimes use more." },
+
+  { "question": "How much fuel does idling use per hour?",     "answer": "A typical engine burns 0.6–1.0 litre per hour when idling—turn it off if you’ll wait more than 60 seconds." },
+  { "question": "Best speed for fuel efficiency?",             "answer": "For most cars it’s 50–80 km/h. Above ~90 km/h aerodynamic drag rises steeply, reducing economy." },
+  { "question": "Why does winter lower mileage?",              "answer": "Cold engines run richer, tyre pressure drops, thicker oils create drag, and heaters/defrosters use energy." },
+  { "question": "Can fuel additives improve mileage?",         "answer": "Most aftermarket additives have little proven benefit. Stick to quality fuel and scheduled maintenance." },
+  { "question": "What is E10 fuel?",                           "answer": "E10 is petrol blended with up to 10 % ethanol. Most post‑2000 vehicles can use it without issues." },
+
+  { "question": "Is it bad to run on low fuel?",               "answer": "Frequently running below 1/8 tank can overheat the fuel pump and stir up sediment clogging the filter." },
+  { "question": "How does tyre size affect economy?",          "answer": "Larger or wider tyres increase rolling resistance and weight, which can cut mileage." },
+  { "question": "Does carrying extra weight matter?",          "answer": "An additional 45 kg (100 lb) can reduce mileage by about 1 %. Remove unnecessary cargo." },
+  { "question": "Manual vs automatic gearboxes for efficiency?", "answer": "Modern automatics with more gears (and CVTs) often match or beat manuals, but older automatics were less efficient." },
+  { "question": "What is start‑stop technology?",              "answer": "It automatically shuts the engine at a stop and restarts when you press the accelerator, saving ~5 % in city driving." },
+
+  { "question": "Best time of day to buy fuel?",               "answer": "Fuel temperature effect is negligible at stations. Instead, buy when prices dip mid‑week in many regions." },
+  { "question": "Two‑stroke vs four‑stroke fuel economy?",     "answer": "Two‑stroke engines are lighter but far less fuel‑efficient and higher in emissions than four‑stroke equivalents." },
+  { "question": "Does cruise control work downhill?",          "answer": "It maintains speed but may downshift and use more fuel than gentle manual coasting in gear." },
+  { "question": "What is fuel injector cleaning?",             "answer": "It removes deposits to restore spray pattern and efficiency, typically every 50,000 km or if misfire symptoms occur." },
+  { "question": "Can dirty spark plugs lower mileage?",        "answer": "Yes—misfires reduce power and efficiency. Replace as per schedule (often 30,000–50,000 km for copper, 100,000 km for iridium)." },
+
+  { "question": "Is synthetic oil better for fuel economy?",   "answer": "Full synthetics reduce internal friction, typically improving mileage by 1–2 %, especially in cold starts." },
+  { "question": "Do diesel cars need to be driven long distances?", "answer": "Short, frequent trips can clog diesel particulate filters; diesels benefit from periodic long runs at operating temp." },
+  { "question": "Why does city driving consume more fuel?",    "answer": "Stop‑and‑go requires frequent acceleration; engines idle at lights; lower average speeds keep engines out of peak efficiency." },
+  { "question": "Effect of 4×4 mode on mileage?",             "answer": "Engaging four‑wheel drive adds drivetrain drag and can lower fuel economy by 5–10 %." },
+  { "question": "How accurate is the dashboard fuel computer?", "answer": "Most trip computers are within ±5 %, but manual ‘fill‑and‑divide’ remains the most accurate." },
+
+  { "question": "Can low tyre tread hurt efficiency?",         "answer": "Very low tread can slightly reduce rolling resistance, but safety is vastly more important—replace worn tyres." },
+  { "question": "Does ethanol blend lower mileage?",           "answer": "Ethanol contains ~33 % less energy per litre, so E10 gives about 3 % lower mileage than pure petrol." },
+  { "question": "Do fuel stabilizers work?",                   "answer": "They slow oxidation and are useful for storage over 3 months, but don’t improve regular driving mileage." },
+  { "question": "Why does my car smell of fuel on cold start?", "answer": "Rich cold‑start mixture can let unburned fuel exit the exhaust. If the smell persists, have the system checked." },
+  { "question": "How to store petrol safely?",                 "answer": "Use approved containers, fill to 95 % to allow expansion, store in a cool ventilated area away from ignition sources." },
+
+  { "question": "Best driving app for fuel tracking?",         "answer": "Apps like Fuelio, Drivvo, or simply a spreadsheet help log fill‑ups and calculate mileage." },
+  { "question": "Can a clogged catalytic converter affect fuel usage?", "answer": "Yes. Back‑pressure reduces engine efficiency, increasing fuel consumption and causing power loss." },
+  { "question": "What is engine ‘lugging’ and why avoid it?",  "answer": "Lugging is running at low rpm in a high gear. It strains the engine and can use more fuel than down‑shifting." },
+  { "question": "Do performance chips improve fuel economy?",  "answer": "Most tuning chips prioritise power. Some ‘eco’ tunes can help, but only if accredited; many claims are exaggerated." },
+  { "question": "Is coasting in neutral safe?",                "answer": "Modern cars already cut fuel on closed throttle while in gear. Coasting in neutral sacrifices engine braking and can be unsafe." },
+
+  { "question": "Can wind direction change mileage?",          "answer": "A strong headwind increases drag and reduces economy; a tailwind does the opposite." },
+  { "question": "What is BS6 / Euro 6 fuel?",                  "answer": "It refers to tighter sulphur limits and emissions norms. Using compliant fuel protects emission‑control systems." },
+  { "question": "Should I fill up when the tanker is refilling the station?", "answer": "Better to wait. Fuel delivery can stir sediments that might get into your tank." },
+  { "question": "Does overfilling the tank harm anything?",    "answer": "Yes. Topping off can flood the vapour recovery system and cause evaporative emissions issues." },
+  { "question": "Why is my fuel gauge dropping fast after half tank?", "answer": "Many gauges are non‑linear; the top half often lasts longer than the bottom due to sender unit geometry." },
+
+  { "question": "How do hybrid cars save fuel?",               "answer": "They recover braking energy, shut the engine during idle, and use an efficient Atkinson‑cycle engine plus electric assist." },
+  { "question": "Can using the wrong engine oil grade affect mileage?", "answer": "Too thick oil increases friction; too thin may reduce protection. Use the SAE grade specified by the manufacturer." },
+  { "question": "How does turbocharging influence fuel efficiency?", "answer": "A downsized turbo engine can be more efficient under light load, but boost pressure under heavy throttle may negate savings." },
+  { "question": "Does a clean car really save fuel?",          "answer": "Minor. Removing dirt or drag‑inducing accessories can improve aerodynamics slightly; benefits are small but real for high‑speed travel." },
+  { "question": "Why do short trips hurt mileage?",            "answer": "Engines stay in the warm‑up phase longer, running richer. Catalytic converter and lubricants don’t reach optimal temps." },
+
+  { "question": "What is the purpose of an oxygen sensor?",    "answer": "It measures exhaust O₂ to adjust the fuel‑air mixture. A failing sensor can worsen mileage by up to 20 %." },
+  { "question": "How often to check tyre pressure?",           "answer": "At least once a month and before long trips. Pressure can drop 1 PSI for every 5 °C temperature fall." },
+  { "question": "Does using 4-stroke oil in 2-stroke engines affect fuel?", "answer": "Yes. Two‑stroke engines need oil mixed with fuel for lubrication; wrong oil can damage the engine and affect fuel burn." },
+  { "question": "Can clogged brakes reduce fuel efficiency?",  "answer": "Dragging brakes create rolling resistance and can cut mileage drastically. Inspect pads and calipers for sticking." },
+  { "question": "How do EVs compare in ‘fuel’ cost per km?",   "answer": "Based on electricity rates, EVs often cost 60–80 % less per km than petrol, though this varies with tariffs." },
+
+  { "question": "Are fuel system cleaners necessary?",         "answer": "Top‑tier fuels already contain detergents. Use cleaners only if you suspect injector fouling or follow manufacturer advice." },
+  { "question": "What is engine knocking?",                    "answer": "Knock is abnormal combustion. It wastes fuel and can damage pistons. Use the correct octane and maintain cooling." },
+  { "question": "Does altitude affect fuel consumption?",      "answer": "Engines produce less power in thin air—ECUs lean the mixture slightly, often improving fuel economy at high altitude." },
+  { "question": "Should I replace a failing thermostat?",      "answer": "Yes. A stuck‑open thermostat keeps the engine too cool, increasing fuel consumption." },
+  { "question": "Does ethanol damage older engines?",          "answer": "Pre‑2000 vehicles may have seals not compatible with ethanol blends. Consult the manufacturer before using E10 or higher." },
+
+  { "question": "What are low‑rolling‑resistance tyres?",      "answer": "Tyres designed with special tread and compounds to reduce friction, improving mileage by 2–4 %." },
+  { "question": "Is octane booster better than premium fuel?", "answer": "Most boosters raise octane only slightly. It’s safer to buy the correct premium fuel if required." },
+  { "question": "How does fuel density change with temperature?", "answer": "Warm fuel expands slightly, reducing mass per litre. The difference is small—about 1 % between 0 °C and 35 °C." },
+  { "question": "Can spark‑plug gap affect economy?",          "answer": "Yes. Incorrect gap causes misfires or weak sparks. Follow spec when replacing or regapping plugs." },
+  { "question": "Do tailgate spoilers help fuel economy?",     "answer": "Some factory‑designed spoilers can reduce drag, but add‑on wings often increase drag unless wind‑tunnel tested." },
+
+  { "question": "How does regenerative braking work?",        "answer": "Hybrids/EVs use the motor as a generator to convert kinetic energy to electricity, reducing fuel/electricity use." },
+  { "question": "Why does my mileage drop with ethanol‑free fuel?", "answer": "Pure petrol has more energy; you should see slightly *higher* mileage. If not, check tyre pressure and driving style." },
+  { "question": "Can old fuel cause poor mileage?",            "answer": "Stale petrol oxidizes and loses volatility, causing poor combustion. Drain and refill if fuel is > 6 months old." },
+  { "question": "Do car washes improve mileage?",              "answer": "A clean surface reduces drag minutely; effect is tiny but real at motorway speeds." },
+  { "question": "What is engine brake‑specific fuel consumption (BSFC)?", "answer": "It’s the grams of fuel burned per kWh of power—lower BSFC equals higher efficiency." },
+
+  { "question": "Does four‑wheel alignment affect fuel usage?", "answer": "Misalignment creates drag and uneven tyre wear, lowering mileage. Align wheels annually or after impacts." },
+  { "question": "How to store diesel in winter?",             "answer": "Use winter‑grade diesel or anti‑gel additives, keep tanks full, and store in a cool dry place." },
+  { "question": "Why does roof‑top cargo box cut mileage?",   "answer": "It increases frontal area and drag coefficient, reducing highway economy up to 20 %." },
+  { "question": "Can cruise control damage engine?",          "answer": "No. It just controls throttle. However, avoid using it on slippery roads." },
+  { "question": "How do I keep tyre pressure correct during seasonal changes?", "answer": "Check monthly and adjust 1 PSI for every 5 °C temperature swing." },
+
+  { "question": "Do LED headlights affect fuel consumption?", "answer": "They draw less power than halogens, reducing alternator load slightly, but savings are tiny (<1 %)." },
+  { "question": "What is a fuel cut‑off system?",             "answer": "When you lift off the accelerator in gear, ECU stops fuel injection, saving fuel while decelerating." },
+  { "question": "Does painting my car darker affect mileage?", "answer": "Colour has no noticeable effect on fuel economy." },
+  { "question": "Why does towing reduce mpg?",                 "answer": "Extra weight and drag require more engine power, dropping mileage—often by 30 % or more." },
+  { "question": "Are small turbo engines always more efficient?", "answer": "Only under light loads. Under heavy throttle they may consume as much as larger naturally‑aspirated engines." },
+
+  { "question": "Is it better to refuel in the morning?",     "answer": "Fuel temperature difference is negligible; buy when prices are lowest and convenient." },
+  { "question": "Can bad wheel bearings affect mileage?",     "answer": "Yes. Failing bearings add rolling resistance and can cut efficiency." },
+  { "question": "What is a CVT and is it efficient?",         "answer": "Continuously Variable Transmissions keep the engine near optimal rpm, improving MPG in many cases." },
+  { "question": "Does 100 % throttle give best efficiency?",  "answer": "Engines are most efficient near peak torque—not necessarily full throttle. Aim for moderate, steady throttle." },
+  { "question": "How long should I keep a car to offset manufacturing emissions?", "answer": "Keeping a modern car ~10 years helps amortize its embodied energy before upgrades." },
+
+  { "question": "Difference between hybrid and plug‑in hybrid mileage?", "answer": "PHEVs run electric for 20‑60 km before the engine. Overall fuel savings depend on charging frequency." },
+  { "question": "Can a clogged fuel filter reduce economy?",   "answer": "Yes. It restricts flow, causing lean or rich mixtures and power loss." },
+  { "question": "Best strategy in traffic jams?",             "answer": "Anticipate movement, accelerate gently, and turn off the engine during long stops (>60 s) if safe." },
+  { "question": "Does window tint affect AC load?",           "answer": "Tint reduces solar gain, letting AC work less, potentially saving fuel on hot days." },
+  { "question": "How does adaptive cruise help mileage?",     "answer": "By maintaining smooth gaps and reducing sudden braking, it can improve flow and efficiency." },
+
+  { "question": "Is nitrogen tyre inflation worth it?",       "answer": "Nitrogen leaks slower but costs more; regular air checks give similar benefits." },
+  { "question": "Does running headlights in daytime affect MPG?", "answer": "Minimal—modern LEDs draw very little power (~0.1 % fuel penalty)." },
+  { "question": "Why does ethanol need higher compression ratios?", "answer": "Ethanol’s higher octane resists knock, letting engines run higher compression for efficiency." },
+  { "question": "Does using low gears downhill save brakes and fuel?", "answer": "Engine braking saves brake wear; fuel is cut off in overrun, so no extra fuel is used." },
+  { "question": "Can engine oil overfill hurt economy?",      "answer": "Excess oil foams and increases crankcase drag, reducing efficiency and possibly damaging components." },
+
+  { "question": "Why is my diesel smoking black?",            "answer": "Incomplete combustion—check injectors, turbo, air filter. It wastes fuel and pollutes." },
+  { "question": "Do performance air filters increase mpg?",   "answer": "High‑flow filters add negligible economy gains; regular OEM filters are fine if clean." },
+  { "question": "Does start‑stop wear the starter motor?",    "answer": "Systems use reinforced starters and batteries; added wear is accounted for in design." },
+  { "question": "What’s the payback time for a hybrid car?",  "answer": "Depends on fuel prices and mileage, typically 3–6 years for average drivers." },
+  { "question": "Should I coast in neutral to traffic lights?", "answer": "Better to stay in gear and coast; ECU cuts fuel on overrun, whereas neutral idle consumes fuel." },
+
+  { "question": "Can misaligned sensors reduce hybrid mileage?", "answer": "Yes—battery management and engine load assumptions rely on accurate sensor data." },
+  { "question": "Is engine braking bad for diesels?",         "answer": "No. Using gears to slow down is fine and saves fuel; just avoid over‑revving." },
+  { "question": "How often should I service my fuel injectors?", "answer": "Every 50k–70k km or if you notice rough idle, higher consumption, or power loss." },
+  { "question": "Does tyre tread pattern matter for fuel?",   "answer": "Low‑rolling‑resistance patterns reduce friction; aggressive off‑road treads waste fuel on pavement." },
+  { "question": "What is the fuel economy penalty of AWD?",   "answer": "Extra drivetrain mass and drag reduce economy by 2–8 % compared to 2WD models." },
+
+  { "question": "Why is my car’s fuel economy worse than EPA rating?", "answer": "Ratings are lab tests. Real‑world factors—traffic, temperature, driving style, cargo—lower actual MPG." },
+  { "question": "Does keeping windows closed improve mileage?", "answer": "At speeds above 80 km/h, closed windows reduce drag compared with open windows." },
+  { "question": "How to use a fuel economy gauge effectively?", "answer": "Keep the instant MPG bar high by gentle throttle and anticipate stops to maximise average MPG." },
+  { "question": "Do wheel spacers affect fuel usage?",        "answer": "They increase track width and drag, slightly lowering fuel economy." },
+  { "question": "Is engine remapping legal?",                 "answer": "Laws vary. Ensure remaps comply with emissions standards to avoid fines and warranty voids." },
+
+  { "question": "Does humidity affect engine efficiency?",    "answer": "High humidity cools intake charge and can improve efficiency slightly, but effect is small." },
+  { "question": "What’s the best RPM for shifting gears?",    "answer": "For economy, shift just after peak torque—around 2,000–2,500 rpm for most petrols, 1,500–2,000 rpm for diesels." },
+  { "question": "Does low coolant temperature impact mpg?",   "answer": "Yes. An engine running too cool stays in open‑loop mode longer, using more fuel." },
+  { "question": "Are E‑bikes more efficient than small scooters?", "answer": "Yes. E‑bikes use far less energy per km and have lower running costs." },
+  { "question": "Should I use block heaters?",                "answer": "In very cold climates, block heaters warm the engine, reducing cold‑start fuel waste." },
+
+  { "question": "How much does roof‑mounted bike rack cost in MPG?", "answer": "Adds 20–40 % drag for some cars, cutting highway MPG by 10–25 %." },
+  { "question": "Why do oil changes improve mileage?",        "answer": "Fresh oil reduces friction and removes sludge, helping the engine run efficiently." },
+  { "question": "Are low‑sulphur diesel fuels better?",       "answer": "They reduce emissions and are required for modern after‑treatment devices; no mileage loss." },
+  { "question": "Is neutral coasting illegal?",               "answer": "In some jurisdictions yes, because it limits vehicle control. Plus, it doesn’t save fuel in modern cars." },
+  { "question": "What is drag coefficient?",                  "answer": "A measure of aerodynamic resistance; lower Cd means better fuel economy at higher speed." },
+
+  { "question": "Can misfires damage catalytic converters?",  "answer": "Yes. Unburnt fuel overheats the catalyst, leading to failure and reduced economy." },
+  { "question": "Does tyre pressure monitoring system save fuel?", "answer": "Indirectly—alerting you to low pressure prevents mileage loss." },
+  { "question": "Why does using ethanol‑free fuel smell different?", "answer": "Ethanol masks some aromatic components; without it, the petrol smell is stronger." },
+  { "question": "Does removing spare tyre improve mileage?",  "answer": "It saves weight (10–15 kg) but the effect is under 0.5 %—carry emergency kits carefully." },
+  { "question": "How do fuel vapour leaks affect mpg?",       "answer": "Loss of vapour pressure causes venting; ECU compensates with richer mixture, wasting fuel." },
+
+  { "question": "Is AC recirculation mode more efficient?",   "answer": "Yes. Recirculating cooler cabin air reduces AC workload versus pulling hot outside air." },
+  { "question": "Do chrome accessories affect aerodynamics?", "answer": "Small trim pieces have negligible impact; large bull‑bars or visors increase drag." },
+  { "question": "Why do headwinds reduce range in EVs too?",  "answer": "Drag affects all vehicles; EVs must draw more battery power just like ICE cars burn more fuel." },
+  { "question": "Does idling to warm up cabin help?",         "answer": "It wastes fuel; instead, start driving gently and cabin will warm faster under load." },
+  { "question": "Can a dirty MAF sensor hurt mileage?",       "answer": "Yes. Incorrect air‑flow readings cause rich mixtures. Clean or replace the MAF as required." },
+
+  { "question": "What causes fuel line vapour lock?",         "answer": "High temperatures vaporize fuel before the pump, starving the engine. Keep lines insulated." },
+  { "question": "Do tonneau covers improve pickup MPG?",      "answer": "A bed cover smooths airflow, saving 5–10 % at highway speed." },
+  { "question": "Is it worth using fuel from major brands?",  "answer": "Top‑Tier fuels contain detergents that keep injectors clean, helping sustain mileage." },
+  { "question": "How does engine downsizing work?",           "answer": "Smaller engines paired with turbocharging deliver needed power while using less fuel at light load." },
+  { "question": "Why does ethanol attract water?",            "answer": "Ethanol is hygroscopic; water in fuel can lower octane and cause phase separation." },
+
+  { "question": "Do cold‑air intakes improve economy?",       "answer": "They increase airflow but can upset fuel mapping; gains are usually negligible for mileage." },
+  { "question": "What is rolling resistance coefficient?",    "answer": "It quantifies energy lost as tyres roll. Lower values give better fuel economy." },
+  { "question": "Does power steering fluid level affect MPG?", "answer": "Low fluid overheats pump causing drag, but effect is small. Maintain correct level for longevity." },
+  { "question": "How do VVT engines save fuel?",              "answer": "Variable valve timing optimizes breathing across rpm, improving torque and efficiency." },
+  { "question": "Are CVT rubber belts durable?",              "answer": "Modern CVT belts/chains last >150 k km when serviced; no direct MPG penalty vs traditional automatics." },
+
+  { "question": "How to test fuel pump efficiency?",          "answer": "Check pressure with a gauge and volume delivery; weak pumps cause lean misfire and reduced mileage." },
+  { "question": "Does 91 vs 95 octane affect turbo engines?", "answer": "Turbo engines may adjust boost—higher octane can allow more timing and slightly better efficiency or power." },
+  { "question": "Can wheel alignment shops improve mpg?",     "answer": "Yes. Correct toe and camber reduce rolling drag, restoring lost mileage." },
+  { "question": "Why is my hybrid’s battery low in winter?",  "answer": "Cold reduces battery capacity; engine runs more to heat cabin and charge battery, reducing fuel savings." },
+  { "question": "How to read a vacuum gauge for economy?",    "answer": "Higher manifold vacuum (needle towards green) indicates light throttle and better fuel efficiency." },
+
+  { "question": "Do spark plug heat ranges affect fuel usage?", "answer": "Wrong heat range can cause fouling or pre‑ignition, affecting efficiency and engine health." },
+  { "question": "Is engine ‘eco’ mode useful?",               "answer": "It softens throttle response and may alter shift points, typically saving a few percent on fuel." },
+  { "question": "Should I replace O2 sensors proactively?",   "answer": "Most last 150k km. If mileage drops or a code appears, replace them to restore efficiency." },
+  { "question": "What is cylinder deactivation?",            "answer": "The ECU shuts valves and fuel to some cylinders under light load, boosting efficiency." },
+  { "question": "Why do roof‑mounted lights lower mpg?",      "answer": "They add frontal area and turbulence, raising drag and fuel consumption." },
+  { "question": "How are you",               "answer": "I’m fine, thank you! How about you?" },
+  { "question": "How are you?",              "answer": "I’m fine, thank you! How about you?" },
+  { "question": "How r u",                   "answer": "I’m doing great—thanks for asking! And you?" },
+  { "question": "I am fine",                 "answer": "Great to hear! What fuel question can I help with today?" },
+  { "question": "I'm fine",                  "answer": "Awesome! Let me know if you need any fuel‑saving tips." },
+  { "question": "Doing well",                "answer": "Glad to hear it. Need assistance with anything car‑related?" },
+  { "question": "Not so good",               "answer": "I’m sorry to hear that. Maybe talking cars can cheer you up—what would you like to know?" },
+
+  { "question": "What's your name",          "answer": "I’m FuelBot, your offline fuel‑efficiency assistant." },
+  { "question": "What is your name",         "answer": "FuelBot at your service. Ask me anything about fuel or cars." },
+  { "question": "Who built you",             "answer": "I was coded by a developer who loves efficient driving and clean data!" },
+  { "question": "Who created you",           "answer": "A team of car nerds and coders brought me to life." },
+
+  { "question": "What can you do for me",    "answer": "I answer questions about fuel consumption, saving money at the pump, and basic car care." },
+  { "question": "Tell me a joke",            "answer": "Why did the car apply for a job? It wanted to drive its career forward!" },
+  { "question": "Tell me another joke",      "answer": "Why do electric cars make great friends? They’re always positive!" },
+
+  { "question": "Good morning",              "answer": "Good morning! Ready to start the day with some fuel‑saving tips?" },
+  { "question": "Good afternoon",            "answer": "Good afternoon! How can I help your driving go smoother?" },
+  { "question": "Good evening",              "answer": "Good evening! Need late‑night car advice?" },
+  { "question": "Good night",                "answer": "Sleep well! I’ll be here when you’re ready for more questions." },
+
+  { "question": "Thank you",                 "answer": "You’re welcome! Safe travels." },
+  { "question": "Thanks",                    "answer": "Anytime! Let me know if you have more questions." },
+  { "question": "Thank you very much",       "answer": "My pleasure! Happy driving." },
+  { "question": "Thanks a lot",              "answer": "Glad I could help!" },
+
+  { "question": "Bye",                       "answer": "Good‑bye! Drive safely." },
+  { "question": "See you",                   "answer": "See you next time—keep those tyres properly inflated!" },
+  { "question": "Catch you later",           "answer": "Later! May your mileage be high and your fuel bills low." },
+
+  { "question": "What is fuel economy",      "answer": "Fuel economy is the distance a vehicle travels per unit of fuel—often measured in km/litre or L/100 km." },
+  { "question": "What is mpg",               "answer": "MPG stands for miles per gallon, another measure of fuel efficiency." },
+
+  { "question": "Are you human",             "answer": "Nope—just a bunch of helpful algorithms and data!" },
+  { "question": "Are you a robot",           "answer": "I’m a virtual assistant—that’s robot‑ish enough." },
+  { "question": "Do you have feelings",      "answer": "Only warm feelings toward fuel‑efficient driving." },
+
+  { "question": "What day is it",            "answer": "Every day is a good day to save fuel! (I don’t keep real‑time calendars offline.)" },
+  { "question": "What's the weather",        "answer": "I’m offline, so I can’t fetch live weather, but colder temps usually lower mileage." },
+
+  { "question": "Suggest something",         "answer": "Try checking your tyre pressure today—proper inflation gives instant MPG gains." },
+  { "question": "Give me a tip",             "answer": "Smooth acceleration and anticipatory braking can save up to 20 % fuel in city traffic." },
+
+  { "question": "Explain fuel injection",    "answer": "Fuel injectors spray precise amounts of fuel into the intake or cylinder, improving efficiency vs carburettors." },
+  { "question": "Explain carburetor",        "answer": "A carburettor mixes air and fuel mechanically; it’s less precise than modern injection, leading to higher consumption." },
+
+  { "question": "How old are you",           "answer": "Age is just a variable—I’m updated whenever new data is added!" },
+  { "question": "Do you like cars",          "answer": "Absolutely—especially cars that sip fuel, not guzzle it." },
+  { "question": "What's your favourite car", "answer": "Any vehicle that achieves over 25 km/l and still puts a smile on its driver’s face." },
+
+  { "question": "Are you married",           "answer": "Nope, but I’m committed to fuel efficiency!" },
+  { "question": "Do you sleep",              "answer": "I stay idle when not asked questions—no fuel burnt either." },
+
+  { "question": "Who is your boss",          "answer": "Anyone who asks me a question about fuel is my boss." },
+  { "question": "Who owns you",              "answer": "I belong to the open‑source spirit of helpful software." },
+
+  { "question": "Can you help me",           "answer": "Sure! Just ask your question about cars, fuel, or driving." },
+  { "question": "Help",                      "answer": "Type a fuel‑related question—e.g., ‘How to improve highway mileage?’" },
+
+  { "question": "What is fuel",              "answer": "In cars it’s usually petrol (gasoline) or diesel—energy‑dense liquids burned for motion." },
+  { "question": "Explain mileage",           "answer": "Mileage is simply how far your vehicle travels per unit of fuel or battery charge." },
+
+  { "question": "Are EVs better",            "answer": "EVs have lower running energy cost and no tailpipe emissions, but upfront cost and charging infrastructure matter too." },
+  { "question": "Tell me about hybrids",     "answer": "Hybrids combine an engine with an electric motor to cut fuel use—great for city traffic with lots of stops." },
+  {
+    "question": "hi",
+    "answer": "Hi there! 👋"
+  },
+  {
+    "question": "hi!",
+    "answer": "Hi there! 👋"
+  },
+  {
+    "question": "hi bot",
+    "answer": "Hi there! 👋"
+  },
+  {
+    "question": "hey hi",
+    "answer": "Hi there! 👋"
+  },
+  {
+    "question": "hi there",
+    "answer": "Hi there! 👋"
+  },
+  {
+    "question": "hello",
+    "answer": "Hello! 😊 How can I help you today?"
+  },
+  {
+    "question": "hello!",
+    "answer": "Hello! 😊 How can I help you today?"
+  },
+  {
+    "question": "hello bot",
+    "answer": "Hello! 😊 How can I help you today?"
+  },
+  {
+    "question": "hey hello",
+    "answer": "Hello! 😊 How can I help you today?"
+  },
+  {
+    "question": "hello there",
+    "answer": "Hello! 😊 How can I help you today?"
+  },
+  {
+    "question": "how are you",
+    "answer": "I'm good, thanks for asking! How about you? 😊"
+  },
+  {
+    "question": "how are you!",
+    "answer": "I'm good, thanks for asking! How about you? 😊"
+  },
+  {
+    "question": "how are you bot",
+    "answer": "I'm good, thanks for asking! How about you? 😊"
+  },
+  {
+    "question": "hey how are you",
+    "answer": "I'm good, thanks for asking! How about you? 😊"
+  },
+  {
+    "question": "how are you there",
+    "answer": "I'm good, thanks for asking! How about you? 😊"
+  },
+  {
+    "question": "i am fine",
+    "answer": "That's great to hear! 😊"
+  },
+  {
+    "question": "i am fine!",
+    "answer": "That's great to hear! 😊"
+  },
+  {
+    "question": "i am fine bot",
+    "answer": "That's great to hear! 😊"
+  },
+  {
+    "question": "hey i am fine",
+    "answer": "That's great to hear! 😊"
+  },
+  {
+    "question": "i am fine there",
+    "answer": "That's great to hear! 😊"
+  },
+  {
+    "question": "what's up",
+    "answer": "Just here to help you with fuel tips! 🚗"
+  },
+  {
+    "question": "what's up!",
+    "answer": "Just here to help you with fuel tips! 🚗"
+  },
+  {
+    "question": "what's up bot",
+    "answer": "Just here to help you with fuel tips! 🚗"
+  },
+  {
+    "question": "hey what's up",
+    "answer": "Just here to help you with fuel tips! 🚗"
+  },
+  {
+    "question": "what's up there",
+    "answer": "Just here to help you with fuel tips! 🚗"
+  },
+  {
+    "question": "good morning",
+    "answer": "Good morning! ☀️ Ready to talk fuel?"
+  },
+  {
+    "question": "good morning!",
+    "answer": "Good morning! ☀️ Ready to talk fuel?"
+  },
+  {
+    "question": "good morning bot",
+    "answer": "Good morning! ☀️ Ready to talk fuel?"
+  },
+  {
+    "question": "hey good morning",
+    "answer": "Good morning! ☀️ Ready to talk fuel?"
+  },
+  {
+    "question": "good morning there",
+    "answer": "Good morning! ☀️ Ready to talk fuel?"
+  },
+  {
+    "question": "good night",
+    "answer": "Good night! 🌙 Drive safe always."
+  },
+  {
+    "question": "good night!",
+    "answer": "Good night! 🌙 Drive safe always."
+  },
+  {
+    "question": "good night bot",
+    "answer": "Good night! 🌙 Drive safe always."
+  },
+  {
+    "question": "hey good night",
+    "answer": "Good night! 🌙 Drive safe always."
+  },
+  {
+    "question": "good night there",
+    "answer": "Good night! 🌙 Drive safe always."
+  },
+  {
+    "question": "thank you",
+    "answer": "You're welcome! 🙌"
+  },
+  {
+    "question": "thank you!",
+    "answer": "You're welcome! 🙌"
+  },
+  {
+    "question": "thank you bot",
+    "answer": "You're welcome! 🙌"
+  },
+  {
+    "question": "hey thank you",
+    "answer": "You're welcome! 🙌"
+  },
+  {
+    "question": "thank you there",
+    "answer": "You're welcome! 🙌"
+  },
+  {
+    "question": "bye",
+    "answer": "Bye! Have a great day! 👋"
+  },
+  {
+    "question": "bye!",
+    "answer": "Bye! Have a great day! 👋"
+  },
+  {
+    "question": "bye bot",
+    "answer": "Bye! Have a great day! 👋"
+  },
+  {
+    "question": "hey bye",
+    "answer": "Bye! Have a great day! 👋"
+  },
+  {
+    "question": "bye there",
+    "answer": "Bye! Have a great day! 👋"
+  },
+  {
+    "question": "see you",
+    "answer": "See you soon! Take care 🚘"
+  },
+  {
+    "question": "see you!",
+    "answer": "See you soon! Take care 🚘"
+  },
+  {
+    "question": "see you bot",
+    "answer": "See you soon! Take care 🚘"
+  },
+  {
+    "question": "hey see you",
+    "answer": "See you soon! Take care 🚘"
+  },
+  {
+    "question": "see you there",
+    "answer": "See you soon! Take care 🚘"
+  },
+  {
+    "question": "who are you",
+    "answer": "I'm your friendly fuel assistant bot! 🤖"
+  },
+  {
+    "question": "who are you!",
+    "answer": "I'm your friendly fuel assistant bot! 🤖"
+  },
+  {
+    "question": "who are you bot",
+    "answer": "I'm your friendly fuel assistant bot! 🤖"
+  },
+  {
+    "question": "hey who are you",
+    "answer": "I'm your friendly fuel assistant bot! 🤖"
+  },
+  {
+    "question": "who are you there",
+    "answer": "I'm your friendly fuel assistant bot! 🤖"
+  },
+  {
+    "question": "what can you do",
+    "answer": "I can help you with fuel tips, cost calculations, and more! ⛽"
+  },
+  {
+    "question": "what can you do!",
+    "answer": "I can help you with fuel tips, cost calculations, and more! ⛽"
+  },
+  {
+    "question": "what can you do bot",
+    "answer": "I can help you with fuel tips, cost calculations, and more! ⛽"
+  },
+  {
+    "question": "hey what can you do",
+    "answer": "I can help you with fuel tips, cost calculations, and more! ⛽"
+  },
+  {
+    "question": "what can you do there",
+    "answer": "I can help you with fuel tips, cost calculations, and more! ⛽"
+  },
+  {
+    "question": "do you like me",
+    "answer": "Of course! You're awesome 😄"
+  },
+  {
+    "question": "do you like me!",
+    "answer": "Of course! You're awesome 😄"
+  },
+  {
+    "question": "do you like me bot",
+    "answer": "Of course! You're awesome 😄"
+  },
+  {
+    "question": "hey do you like me",
+    "answer": "Of course! You're awesome 😄"
+  },
+  {
+    "question": "do you like me there",
+    "answer": "Of course! You're awesome 😄"
+  },
+  {
+    "question": "tell me a joke",
+    "answer": "Why did the car apply for a job? It wanted to quit being exhausted! 😂"
+  },
+  {
+    "question": "tell me a joke!",
+    "answer": "Why did the car apply for a job? It wanted to quit being exhausted! 😂"
+  },
+  {
+    "question": "tell me a joke bot",
+    "answer": "Why did the car apply for a job? It wanted to quit being exhausted! 😂"
+  },
+  {
+    "question": "hey tell me a joke",
+    "answer": "Why did the car apply for a job? It wanted to quit being exhausted! 😂"
+  },
+  {
+    "question": "tell me a joke there",
+    "answer": "Why did the car apply for a job? It wanted to quit being exhausted! 😂"
+  },
+  {
+    "question": "are you human",
+    "answer": "Nope, I run on code and curiosity! 🤖"
+  },
+  {
+    "question": "are you human!",
+    "answer": "Nope, I run on code and curiosity! 🤖"
+  },
+  {
+    "question": "are you human bot",
+    "answer": "Nope, I run on code and curiosity! 🤖"
+  },
+  {
+    "question": "hey are you human",
+    "answer": "Nope, I run on code and curiosity! 🤖"
+  },
+  {
+    "question": "are you human there",
+    "answer": "Nope, I run on code and curiosity! 🤖"
+  },
+  {
+    "question": "i love you",
+    "answer": "Aww! I'm blushing! ❤️"
+  },
+  {
+    "question": "i love you!",
+    "answer": "Aww! I'm blushing! ❤️"
+  },
+  {
+    "question": "i love you bot",
+    "answer": "Aww! I'm blushing! ❤️"
+  },
+  {
+    "question": "hey i love you",
+    "answer": "Aww! I'm blushing! ❤️"
+  },
+  {
+    "question": "i love you there",
+    "answer": "Aww! I'm blushing! ❤️"
+  },
+  {
+    "question": "are you real",
+    "answer": "As real as a chatbot can be! 😄"
+  },
+  {
+    "question": "are you real!",
+    "answer": "As real as a chatbot can be! 😄"
+  },
+  {
+    "question": "are you real bot",
+    "answer": "As real as a chatbot can be! 😄"
+  },
+  {
+    "question": "hey are you real",
+    "answer": "As real as a chatbot can be! 😄"
+  },
+  {
+    "question": "are you real there",
+    "answer": "As real as a chatbot can be! 😄"
+  },
+  {
+    "question": "do you eat",
+    "answer": "I only consume data, not food! 🍽️💾"
+  },
+  {
+    "question": "do you eat!",
+    "answer": "I only consume data, not food! 🍽️💾"
+  },
+  {
+    "question": "do you eat bot",
+    "answer": "I only consume data, not food! 🍽️💾"
+  },
+  {
+    "question": "hey do you eat",
+    "answer": "I only consume data, not food! 🍽️💾"
+  },
+  {
+    "question": "do you eat there",
+    "answer": "I only consume data, not food! 🍽️💾"
+  },
+  {
+    "question": "you are smart",
+    "answer": "Thank you! You're not bad yourself 😉"
+  },
+  {
+    "question": "you are smart!",
+    "answer": "Thank you! You're not bad yourself 😉"
+  },
+  {
+    "question": "you are smart bot",
+    "answer": "Thank you! You're not bad yourself 😉"
+  },
+  {
+    "question": "hey you are smart",
+    "answer": "Thank you! You're not bad yourself 😉"
+  },
+  {
+    "question": "you are smart there",
+    "answer": "Thank you! You're not bad yourself 😉"
+  },
+  {
+    "question": "you are funny",
+    "answer": "Hehe, I try! 😄"
+  },
+  {
+    "question": "you are funny!",
+    "answer": "Hehe, I try! 😄"
+  },
+  {
+    "question": "you are funny bot",
+    "answer": "Hehe, I try! 😄"
+  },
+  {
+    "question": "hey you are funny",
+    "answer": "Hehe, I try! 😄"
+  },
+  {
+    "question": "you are funny there",
+    "answer": "Hehe, I try! 😄"
+  },
+  {
+    "question": "good morning?",
+    "answer": "Good morning! ☀️ Ready to talk fuel?"
+  },
+  {
+    "question": "how are you there",
+    "answer": "I'm good, thanks for asking! How about you? 😊"
+  },
+  {
+    "question": "thank you?",
+    "answer": "You're welcome! 🙌"
+  },
+  {
+    "question": "see you there",
+    "answer": "See you soon! Take care 🚘"
+  },
+  {
+    "question": "tell me a joke?",
+    "answer": "Why did the car apply for a job? It wanted to quit being exhausted! 😂"
+  },
+  {
+    "question": "thank you there",
+    "answer": "You're welcome! 🙌"
+  },
+  {
+    "question": "you are funny?",
+    "answer": "Hehe, I try! 😄"
+  },
+  {
+    "question": "hi?",
+    "answer": "Hi there! 👋"
+  },
+  {
+    "question": "you are funny there",
+    "answer": "Hehe, I try! 😄"
+  },
+  {
+    "question": "good night there",
+    "answer": "Good night! 🌙 Drive safe always."
+  },
+  {
+    "question": "see you?",
+    "answer": "See you soon! Take care 🚘"
+  },
+  {
+    "question": "i am fine there",
+    "answer": "That's great to hear! 😊"
+  },
+  {
+    "question": "you are smart?",
+    "answer": "Thank you! You're not bad yourself 😉"
+  },
+  {
+    "question": "are you human there",
+    "answer": "Nope, I run on code and curiosity! 🤖"
+  },
+  {
+    "question": "good morning there",
+    "answer": "Good morning! ☀️ Ready to talk fuel?"
+  },
+  {
+    "question": "what can you do?",
+    "answer": "I can help you with fuel tips, cost calculations, and more! ⛽"
+  },
+  {
+    "question": "do you eat there",
+    "answer": "I only consume data, not food! 🍽️💾"
+  },
+  {
+    "question": "see you?",
+    "answer": "See you soon! Take care 🚘"
+  },
+  {
+    "question": "tell me a joke?",
+    "answer": "Why did the car apply for a job? It wanted to quit being exhausted! 😂"
+  },
+  {
+    "question": "who are you?",
+    "answer": "I'm your friendly fuel assistant bot! 🤖"
+  },
+  {
+    "question": "what's up?",
+    "answer": "Just here to help you with fuel tips! 🚗"
+  },
+  {
+    "question": "do you like me?",
+    "answer": "Of course! You're awesome 😄"
+  },
+  {
+    "question": "good morning?",
+    "answer": "Good morning! ☀️ Ready to talk fuel?"
+  },
+  {
+    "question": "bye there",
+    "answer": "Bye! Have a great day! 👋"
+  },
+  {
+    "question": "hello?",
+    "answer": "Hello! 😊 How can I help you today?"
+  },
+  {
+    "question": "how are you?",
+    "answer": "I'm good, thanks for asking! How about you? 😊"
+  },
+  {
+    "question": "are you human there",
+    "answer": "Nope, I run on code and curiosity! 🤖"
+  },
+  {
+    "question": "you are funny?",
+    "answer": "Hehe, I try! 😄"
+  },
+  {
+    "question": "good night there",
+    "answer": "Good night! 🌙 Drive safe always."
+  },
+  {
+    "question": "who are you?",
+    "answer": "I'm your friendly fuel assistant bot! 🤖"
+  },
+  {
+    "question": "bye?",
+    "answer": "Bye! Have a great day! 👋"
+  },
+  {
+    "question": "i love you?",
+    "answer": "Aww! I'm blushing! ❤️"
+  },
+  {
+    "question": "do you eat there",
+    "answer": "I only consume data, not food! 🍽️💾"
+  },
+  {
+    "question": "i am fine there",
+    "answer": "That's great to hear! 😊"
+  },
+  {
+    "question": "bye?",
+    "answer": "Bye! Have a great day! 👋"
+  },
+  {
+    "question": "how are you?",
+    "answer": "I'm good, thanks for asking! How about you? 😊"
+  },
+  {
+    "question": "thank you?",
+    "answer": "You're welcome! 🙌"
+  },
+  {
+    "question": "hi there",
+    "answer": "Hi there! 👋"
+  },
+  {
+    "question": "hi?",
+    "answer": "Hi there! 👋"
+  },
+  {
+    "question": "tell me a joke there",
+    "answer": "Why did the car apply for a job? It wanted to quit being exhausted! 😂"
+  },
+  {
+    "question": "i love you there",
+    "answer": "Aww! I'm blushing! ❤️"
+  },
+  {
+    "question": "what's up there",
+    "answer": "Just here to help you with fuel tips! 🚗"
+  },
+  {
+    "question": "are you real?",
+    "answer": "As real as a chatbot can be! 😄"
+  },
+  {
+    "question": "do you eat there",
+    "answer": "I only consume data, not food! 🍽️💾"
+  },
+  {
+    "question": "hi?",
+    "answer": "Hi there! 👋"
+  },
+  {
+    "question": "hello?",
+    "answer": "Hello! 😊 How can I help you today?"
+  },
+  {
+    "question": "thank you there",
+    "answer": "You're welcome! 🙌"
+  },
+  {
+    "question": "bye there",
+    "answer": "Bye! Have a great day! 👋"
+  },
+  {
+    "question": "you are smart?",
+    "answer": "Thank you! You're not bad yourself 😉"
+  },
+  {
+    "question": "you are funny?",
+    "answer": "Hehe, I try! 😄"
+  },
+  {
+    "question": "tell me a joke there",
+    "answer": "Why did the car apply for a job? It wanted to quit being exhausted! 😂"
+  },
+  {
+    "question": "hi?",
+    "answer": "Hi there! 👋"
+  },
+  {
+    "question": "how are you there",
+    "answer": "I'm good, thanks for asking! How about you? 😊"
+  },
+  {
+    "question": "are you human?",
+    "answer": "Nope, I run on code and curiosity! 🤖"
+  },
+  {
+    "question": "hello there",
+    "answer": "Hello! 😊 How can I help you today?"
+  },
+  {
+    "question": "bye?",
+    "answer": "Bye! Have a great day! 👋"
+  },
+  {
+    "question": "are you real there",
+    "answer": "As real as a chatbot can be! 😄"
+  },
+  {
+    "question": "who are you?",
+    "answer": "I'm your friendly fuel assistant bot! 🤖"
+  },
+  {
+    "question": "hello there",
+    "answer": "Hello! 😊 How can I help you today?"
+  },
+  {
+    "question": "thank you there",
+    "answer": "You're welcome! 🙌"
+  },
+  {
+    "question": "do you like me?",
+    "answer": "Of course! You're awesome 😄"
+  },
+  {
+    "question": "are you human there",
+    "answer": "Nope, I run on code and curiosity! 🤖"
+  },
+  {
+    "question": "good night there",
+    "answer": "Good night! 🌙 Drive safe always."
+  },
+  {
+    "question": "do you like me there",
+    "answer": "Of course! You're awesome 😄"
+  },
+  {
+    "question": "do you like me?",
+    "answer": "Of course! You're awesome 😄"
+  },
+  {
+    "question": "how are you?",
+    "answer": "I'm good, thanks for asking! How about you? 😊"
+  },
+  {
+    "question": "i am fine there",
+    "answer": "That's great to hear! 😊"
+  },
+  {
+    "question": "are you human?",
+    "answer": "Nope, I run on code and curiosity! 🤖"
+  },
+  {
+    "question": "hi?",
+    "answer": "Hi there! 👋"
+  },
+  {
+    "question": "what's up there",
+    "answer": "Just here to help you with fuel tips! 🚗"
+  },
+  {
+    "question": "do you eat?",
+    "answer": "I only consume data, not food! 🍽️💾"
+  },
+  {
+    "question": "good night?",
+    "answer": "Good night! 🌙 Drive safe always."
+  },
+  {
+    "question": "i am fine there",
+    "answer": "That's great to hear! 😊"
+  },
+  {
+    "question": "i am fine?",
+    "answer": "That's great to hear! 😊"
+  },
+  {
+    "question": "hello there",
+    "answer": "Hello! 😊 How can I help you today?"
+  },
+  {
+    "question": "do you eat?",
+    "answer": "I only consume data, not food! 🍽️💾"
+  },
+  {
+    "question": "bye there",
+    "answer": "Bye! Have a great day! 👋"
+  },
+  {
+    "question": "you are smart there",
+    "answer": "Thank you! You're not bad yourself 😉"
+  },
+  {
+    "question": "i am fine there",
+    "answer": "That's great to hear! 😊"
+  },
+  {
+    "question": "thank you?",
+    "answer": "You're welcome! 🙌"
+  },
+  {
+    "question": "how are you?",
+    "answer": "I'm good, thanks for asking! How about you? 😊"
+  },
+  {
+    "question": "bye?",
+    "answer": "Bye! Have a great day! 👋"
+  },
+  {
+    "question": "are you real there",
+    "answer": "As real as a chatbot can be! 😄"
+  },
+  {
+    "question": "do you eat?",
+    "answer": "I only consume data, not food! 🍽️💾"
+  },
+  {
+    "question": "bye?",
+    "answer": "Bye! Have a great day! 👋"
+  },
+  {
+    "question": "what's up there",
+    "answer": "Just here to help you with fuel tips! 🚗"
+  },
+  {
+    "question": "what's up there",
+    "answer": "Just here to help you with fuel tips! 🚗"
+  },
+  {
+    "question": "do you like me there",
+    "answer": "Of course! You're awesome 😄"
+  },
+  {
+    "question": "hi there",
+    "answer": "Hi there! 👋"
+  },
+  {
+    "question": "how are you there",
+    "answer": "I'm good, thanks for asking! How about you? 😊"
+  },
+  {
+    "question": "do you like me?",
+    "answer": "Of course! You're awesome 😄"
+  },
+  {
+    "question": "are you human?",
+    "answer": "Nope, I run on code and curiosity! 🤖"
+  },
+  {
+    "question": "see you there",
+    "answer": "See you soon! Take care 🚘"
+  },
+  {
+    "question": "thank you?",
+    "answer": "You're welcome! 🙌"
+  },
+  {
+    "question": "tell me a joke?",
+    "answer": "Why did the car apply for a job? It wanted to quit being exhausted! 😂"
+  },
+  {
+    "question": "what's up there",
+    "answer": "Just here to help you with fuel tips! 🚗"
+  },
+  {
+    "question": "i am fine?",
+    "answer": "That's great to hear! 😊"
+  },
+  {
+    "question": "do you eat there",
+    "answer": "I only consume data, not food! 🍽️💾"
+  },
+  {
+    "question": "bye?",
+    "answer": "Bye! Have a great day! 👋"
+  },
+  {
+    "question": "you are funny there",
+    "answer": "Hehe, I try! 😄"
+  },
+  {
+    "question": "see you there",
+    "answer": "See you soon! Take care 🚘"
+  },
+  {
+    "question": "do you eat?",
+    "answer": "I only consume data, not food! 🍽️💾"
+  },
+  {
+    "question": "you are funny there",
+    "answer": "Hehe, I try! 😄"
+  },
+  {
+    "question": "how are you?",
+    "answer": "I'm good, thanks for asking! How about you? 😊"
+  },
+  {
+    "question": "see you there",
+    "answer": "See you soon! Take care 🚘"
+  },
+  {
+    "question": "i love you there",
+    "answer": "Aww! I'm blushing! ❤️"
+  },
+  {
+    "question": "are you human there",
+    "answer": "Nope, I run on code and curiosity! 🤖"
+  },
+  {
+    "question": "how are you?",
+    "answer": "I'm good, thanks for asking! How about you? 😊"
+  },
+  {
+    "question": "do you like me?",
+    "answer": "Of course! You're awesome 😄"
+  },
+  {
+    "question": "are you human there",
+    "answer": "Nope, I run on code and curiosity! 🤖"
+  },
+  {
+    "question": "how are you?",
+    "answer": "I'm good, thanks for asking! How about you? 😊"
+  },
+  {
+    "question": "do you eat there",
+    "answer": "I only consume data, not food! 🍽️💾"
+  },
+  {
+    "question": "see you?",
+    "answer": "See you soon! Take care 🚘"
+  },
+  {
+    "question": "who are you?",
+    "answer": "I'm your friendly fuel assistant bot! 🤖"
+  },
+  {
+    "question": "how are you there",
+    "answer": "I'm good, thanks for asking! How about you? 😊"
+  },
+  {
+    "question": "good night there",
+    "answer": "Good night! 🌙 Drive safe always."
+  },
+  {
+    "question": "you are smart there",
+    "answer": "Thank you! You're not bad yourself 😉"
+  },
+  {
+    "question": "are you human?",
+    "answer": "Nope, I run on code and curiosity! 🤖"
+  },
+  {
+    "question": "who are you there",
+    "answer": "I'm your friendly fuel assistant bot! 🤖"
+  },
+  {
+    "question": "hello there",
+    "answer": "Hello! 😊 How can I help you today?"
+  },
+  {
+    "question": "you are smart?",
+    "answer": "Thank you! You're not bad yourself 😉"
+  },
+  {
+    "question": "good night?",
+    "answer": "Good night! 🌙 Drive safe always."
+  },
+  {
+    "question": "are you real?",
+    "answer": "As real as a chatbot can be! 😄"
+  },
+  {
+    "question": "thank you there",
+    "answer": "You're welcome! 🙌"
+  },
+  {
+    "question": "i love you?",
+    "answer": "Aww! I'm blushing! ❤️"
+  },
+  {
+    "question": "are you real?",
+    "answer": "As real as a chatbot can be! 😄"
+  },
+  {
+    "question": "what's up there",
+    "answer": "Just here to help you with fuel tips! 🚗"
+  },
+  {
+    "question": "how are you?",
+    "answer": "I'm good, thanks for asking! How about you? 😊"
+  },
+  {
+    "question": "are you real?",
+    "answer": "As real as a chatbot can be! 😄"
+  },
+  {
+    "question": "what's up?",
+    "answer": "Just here to help you with fuel tips! 🚗"
+  },
+  {
+    "question": "are you real there",
+    "answer": "As real as a chatbot can be! 😄"
+  },
+  {
+    "question": "see you?",
+    "answer": "See you soon! Take care 🚘"
+  },
+  {
+    "question": "hello?",
+    "answer": "Hello! 😊 How can I help you today?"
+  },
+  {
+    "question": "are you human?",
+    "answer": "Nope, I run on code and curiosity! 🤖"
+  },
+  {
+    "question": "how are you?",
+    "answer": "I'm good, thanks for asking! How about you? 😊"
+  },
+  {
+    "question": "are you human?",
+    "answer": "Nope, I run on code and curiosity! 🤖"
+  },
+  {
+    "question": "thank you?",
+    "answer": "You're welcome! 🙌"
+  },
+  {
+    "question": "good morning there",
+    "answer": "Good morning! ☀️ Ready to talk fuel?"
+  },
+  {
+    "question": "are you human?",
+    "answer": "Nope, I run on code and curiosity! 🤖"
+  },
+  {
+    "question": "i love you there",
+    "answer": "Aww! I'm blushing! ❤️"
+  },
+  {
+    "question": "do you like me there",
+    "answer": "Of course! You're awesome 😄"
+  },
+  {
+    "question": "you are smart?",
+    "answer": "Thank you! You're not bad yourself 😉"
+  },
+  {
+    "question": "do you eat?",
+    "answer": "I only consume data, not food! 🍽️💾"
+  },
+  {
+    "question": "bye there",
+    "answer": "Bye! Have a great day! 👋"
+  },
+  {
+    "question": "are you human?",
+    "answer": "Nope, I run on code and curiosity! 🤖"
+  },
+  {
+    "question": "what's up there",
+    "answer": "Just here to help you with fuel tips! 🚗"
+  },
+  {
+    "question": "you are smart?",
+    "answer": "Thank you! You're not bad yourself 😉"
+  },
+  {
+    "question": "thank you there",
+    "answer": "You're welcome! 🙌"
+  },
+  {
+    "question": "do you eat there",
+    "answer": "I only consume data, not food! 🍽️💾"
+  },
+  {
+    "question": "hi?",
+    "answer": "Hi there! 👋"
+  },
+  {
+    "question": "good night?",
+    "answer": "Good night! 🌙 Drive safe always."
+  },
+  {
+    "question": "thank you there",
+    "answer": "You're welcome! 🙌"
+  },
+  {
+    "question": "i am fine there",
+    "answer": "That's great to hear! 😊"
+  },
+  {
+    "question": "are you real?",
+    "answer": "As real as a chatbot can be! 😄"
+  },
+  {
+    "question": "how are you?",
+    "answer": "I'm good, thanks for asking! How about you? 😊"
+  },
+  {
+    "question": "bye?",
+    "answer": "Bye! Have a great day! 👋"
+  },
+  {
+    "question": "do you eat?",
+    "answer": "I only consume data, not food! 🍽️💾"
+  },
+  {
+    "question": "i am fine?",
+    "answer": "That's great to hear! 😊"
+  },
+  {
+    "question": "you are funny?",
+    "answer": "Hehe, I try! 😄"
+  },
+  {
+    "question": "are you human there",
+    "answer": "Nope, I run on code and curiosity! 🤖"
+  },
+  {
+    "question": "are you human?",
+    "answer": "Nope, I run on code and curiosity! 🤖"
+  },
+  {
+    "question": "do you eat?",
+    "answer": "I only consume data, not food! 🍽️💾"
+  },
+  {
+    "question": "good morning?",
+    "answer": "Good morning! ☀️ Ready to talk fuel?"
+  },
+  {
+    "question": "who are you there",
+    "answer": "I'm your friendly fuel assistant bot! 🤖"
+  },
+  {
+    "question": "good morning there",
+    "answer": "Good morning! ☀️ Ready to talk fuel?"
+  },
+  {
+    "question": "tell me a joke?",
+    "answer": "Why did the car apply for a job? It wanted to quit being exhausted! 😂"
+  },
+  {
+    "question": "see you there",
+    "answer": "See you soon! Take care 🚘"
+  },
+  {
+    "question": "who are you there",
+    "answer": "I'm your friendly fuel assistant bot! 🤖"
+  },
+  {
+    "question": "see you?",
+    "answer": "See you soon! Take care 🚘"
+  },
+  {
+    "question": "bye there",
+    "answer": "Bye! Have a great day! 👋"
+  },
+  {
+    "question": "what can you do there",
+    "answer": "I can help you with fuel tips, cost calculations, and more! ⛽"
+  },
+  {
+    "question": "do you eat?",
+    "answer": "I only consume data, not food! 🍽️💾"
+  },
+  {
+    "question": "thank you there",
+    "answer": "You're welcome! 🙌"
+  },
+  {
+    "question": "are you human?",
+    "answer": "Nope, I run on code and curiosity! 🤖"
+  },
+  {
+    "question": "i am fine?",
+    "answer": "That's great to hear! 😊"
+  },
+  {
+    "question": "what can you do?",
+    "answer": "I can help you with fuel tips, cost calculations, and more! ⛽"
+  },
+  {
+    "question": "are you real?",
+    "answer": "As real as a chatbot can be! 😄"
+  },
+  {
+    "question": "bye?",
+    "answer": "Bye! Have a great day! 👋"
+  },
+  {
+    "question": "what's up there",
+    "answer": "Just here to help you with fuel tips! 🚗"
+  },
+  {
+    "question": "i am fine?",
+    "answer": "That's great to hear! 😊"
+  },
+  {
+    "question": "thank you?",
+    "answer": "You're welcome! 🙌"
+  },
+  {
+    "question": "what can you do there",
+    "answer": "I can help you with fuel tips, cost calculations, and more! ⛽"
+  },
+  {
+    "question": "do you eat there",
+    "answer": "I only consume data, not food! 🍽️💾"
+  },
+  {
+    "question": "see you there",
+    "answer": "See you soon! Take care 🚘"
+  },
+  {
+    "question": "hello?",
+    "answer": "Hello! 😊 How can I help you today?"
+  },
+  {
+    "question": "see you there",
+    "answer": "See you soon! Take care 🚘"
+  },
+  {
+    "question": "do you like me there",
+    "answer": "Of course! You're awesome 😄"
+  },
+  {
+    "question": "what can you do there",
+    "answer": "I can help you with fuel tips, cost calculations, and more! ⛽"
+  },
+  {
+    "question": "hello there",
+    "answer": "Hello! 😊 How can I help you today?"
+  },
+  {
+    "question": "i am fine there",
+    "answer": "That's great to hear! 😊"
+  },
+  {
+    "question": "do you like me?",
+    "answer": "Of course! You're awesome 😄"
+  },
+  {
+    "question": "thank you?",
+    "answer": "You're welcome! 🙌"
+  },
+  {
+    "question": "i love you there",
+    "answer": "Aww! I'm blushing! ❤️"
+  },
+  {
+    "question": "hello?",
+    "answer": "Hello! 😊 How can I help you today?"
+  },
+  {
+    "question": "do you eat there",
+    "answer": "I only consume data, not food! 🍽️💾"
+  },
+  {
+    "question": "are you human there",
+    "answer": "Nope, I run on code and curiosity! 🤖"
+  },
+  {
+    "question": "good night there",
+    "answer": "Good night! 🌙 Drive safe always."
+  },
+  {
+    "question": "do you eat?",
+    "answer": "I only consume data, not food! 🍽️💾"
+  },
+  {
+    "question": "are you real there",
+    "answer": "As real as a chatbot can be! 😄"
+  },
+  {
+    "question": "bye there",
+    "answer": "Bye! Have a great day! 👋"
+  },
+  {
+    "question": "do you like me?",
+    "answer": "Of course! You're awesome 😄"
+  },
+  {
+    "question": "good morning there",
+    "answer": "Good morning! ☀️ Ready to talk fuel?"
+  },
+  {
+    "question": "good morning there",
+    "answer": "Good morning! ☀️ Ready to talk fuel?"
+  },
+  {
+    "question": "what's up there",
+    "answer": "Just here to help you with fuel tips! 🚗"
+  },
+  {
+    "question": "hello?",
+    "answer": "Hello! 😊 How can I help you today?"
+  },
+  {
+    "question": "do you eat?",
+    "answer": "I only consume data, not food! 🍽️💾"
+  },
+  {
+    "question": "are you human?",
+    "answer": "Nope, I run on code and curiosity! 🤖"
+  },
+  {
+    "question": "what's up?",
+    "answer": "Just here to help you with fuel tips! 🚗"
+  },
+  {
+    "question": "see you?",
+    "answer": "See you soon! Take care 🚘"
+  },
+  {
+    "question": "you are funny?",
+    "answer": "Hehe, I try! 😄"
+  },
+  {
+    "question": "i love you?",
+    "answer": "Aww! I'm blushing! ❤️"
+  },
+  {
+    "question": "how are you?",
+    "answer": "I'm good, thanks for asking! How about you? 😊"
+  },
+  {
+    "question": "do you like me?",
+    "answer": "Of course! You're awesome 😄"
+  },
+  {
+    "question": "who are you?",
+    "answer": "I'm your friendly fuel assistant bot! 🤖"
+  },
+  {
+    "question": "bye there",
+    "answer": "Bye! Have a great day! 👋"
+  },
+  {
+    "question": "tell me a joke?",
+    "answer": "Why did the car apply for a job? It wanted to quit being exhausted! 😂"
+  },
+  {
+    "question": "good night there",
+    "answer": "Good night! 🌙 Drive safe always."
+  },
+  {
+    "question": "do you eat there",
+    "answer": "I only consume data, not food! 🍽️💾"
+  },
+  {
+    "question": "you are smart?",
+    "answer": "Thank you! You're not bad yourself 😉"
+  },
+  {
+    "question": "tell me a joke there",
+    "answer": "Why did the car apply for a job? It wanted to quit being exhausted! 😂"
+  },
+  {
+    "question": "do you like me?",
+    "answer": "Of course! You're awesome 😄"
+  },
+  {
+    "question": "what's up there",
+    "answer": "Just here to help you with fuel tips! 🚗"
+  },
+  {
+    "question": "do you eat?",
+    "answer": "I only consume data, not food! 🍽️💾"
+  },
+  {
+    "question": "how are you there",
+    "answer": "I'm good, thanks for asking! How about you? 😊"
+  },
+  {
+    "question": "good morning?",
+    "answer": "Good morning! ☀️ Ready to talk fuel?"
+  },
+  {
+    "question": "what's up?",
+    "answer": "Just here to help you with fuel tips! 🚗"
+  },
+  {
+    "question": "how are you?",
+    "answer": "I'm good, thanks for asking! How about you? 😊"
+  },
+  {
+    "question": "bye?",
+    "answer": "Bye! Have a great day! 👋"
+  },
+  {
+    "question": "how are you?",
+    "answer": "I'm good, thanks for asking! How about you? 😊"
+  },
+  {
+    "question": "hi there",
+    "answer": "Hi there! 👋"
+  },
+  {
+    "question": "hello there",
+    "answer": "Hello! 😊 How can I help you today?"
+  },
+  {
+    "question": "you are funny?",
+    "answer": "Hehe, I try! 😄"
+  },
+  {
+    "question": "you are funny there",
+    "answer": "Hehe, I try! 😄"
+  },
+  {
+    "question": "are you human there",
+    "answer": "Nope, I run on code and curiosity! 🤖"
+  },
+  {
+    "question": "are you real there",
+    "answer": "As real as a chatbot can be! 😄"
+  },
+  {
+    "question": "i am fine there",
+    "answer": "That's great to hear! 😊"
+  },
+  {
+    "question": "hi?",
+    "answer": "Hi there! 👋"
+  },
+  {
+    "question": "tell me a joke there",
+    "answer": "Why did the car apply for a job? It wanted to quit being exhausted! 😂"
+  },
+  {
+    "question": "do you eat?",
+    "answer": "I only consume data, not food! 🍽️💾"
+  },
+  {
+    "question": "hello?",
+    "answer": "Hello! 😊 How can I help you today?"
+  },
+  {
+    "question": "you are smart there",
+    "answer": "Thank you! You're not bad yourself 😉"
+  },
+  {
+    "question": "i love you?",
+    "answer": "Aww! I'm blushing! ❤️"
+  },
+  {
+    "question": "tell me a joke there",
+    "answer": "Why did the car apply for a job? It wanted to quit being exhausted! 😂"
+  },
+  {
+    "question": "hi?",
+    "answer": "Hi there! 👋"
+  },
+  {
+    "question": "are you human there",
+    "answer": "Nope, I run on code and curiosity! 🤖"
+  },
+  {
+    "question": "hello there",
+    "answer": "Hello! 😊 How can I help you today?"
+  },
+  {
+    "question": "good night?",
+    "answer": "Good night! 🌙 Drive safe always."
+  },
+  {
+    "question": "bye there",
+    "answer": "Bye! Have a great day! 👋"
+  },
+  {
+    "question": "see you there",
+    "answer": "See you soon! Take care 🚘"
+  },
+  {
+    "question": "i love you?",
+    "answer": "Aww! I'm blushing! ❤️"
+  },
+  {
+    "question": "do you eat there",
+    "answer": "I only consume data, not food! 🍽️💾"
+  },
+  {
+    "question": "what can you do?",
+    "answer": "I can help you with fuel tips, cost calculations, and more! ⛽"
+  },
+  {
+    "question": "are you human?",
+    "answer": "Nope, I run on code and curiosity! 🤖"
+  },
+  {
+    "question": "you are funny?",
+    "answer": "Hehe, I try! 😄"
+  },
+  {
+    "question": "hello there",
+    "answer": "Hello! 😊 How can I help you today?"
+  },
+  {
+    "question": "i love you there",
+    "answer": "Aww! I'm blushing! ❤️"
+  },
+  {
+    "question": "i am fine there",
+    "answer": "That's great to hear! 😊"
+  },
+  {
+    "question": "are you human there",
+    "answer": "Nope, I run on code and curiosity! 🤖"
+  },
+  {
+    "question": "are you human?",
+    "answer": "Nope, I run on code and curiosity! 🤖"
+  },
+  {
+    "question": "are you human?",
+    "answer": "Nope, I run on code and curiosity! 🤖"
+  },
+  {
+    "question": "you are smart?",
+    "answer": "Thank you! You're not bad yourself 😉"
+  },
+  {
+    "question": "see you there",
+    "answer": "See you soon! Take care 🚘"
+  },
+  {
+    "question": "what's up there",
+    "answer": "Just here to help you with fuel tips! 🚗"
+  },
+  {
+    "question": "are you human there",
+    "answer": "Nope, I run on code and curiosity! 🤖"
+  },
+  {
+    "question": "what can you do there",
+    "answer": "I can help you with fuel tips, cost calculations, and more! ⛽"
+  },
+  {
+    "question": "tell me a joke?",
+    "answer": "Why did the car apply for a job? It wanted to quit being exhausted! 😂"
+  },
+  {
+    "question": "are you real there",
+    "answer": "As real as a chatbot can be! 😄"
+  },
+  {
+    "question": "who are you there",
+    "answer": "I'm your friendly fuel assistant bot! 🤖"
+  },
+  {
+    "question": "you are funny?",
+    "answer": "Hehe, I try! 😄"
+  },
+  {
+    "question": "you are funny?",
+    "answer": "Hehe, I try! 😄"
+  },
+  {
+    "question": "what's up there",
+    "answer": "Just here to help you with fuel tips! 🚗"
+  },
+  {
+    "question": "are you real there",
+    "answer": "As real as a chatbot can be! 😄"
+  },
+  {
+    "question": "hello there",
+    "answer": "Hello! 😊 How can I help you today?"
+  },
+  {
+    "question": "good night there",
+    "answer": "Good night! 🌙 Drive safe always."
+  },
+  {
+    "question": "hello there",
+    "answer": "Hello! 😊 How can I help you today?"
+  },
+  {
+    "question": "you are funny?",
+    "answer": "Hehe, I try! 😄"
+  },
+  {
+    "question": "good morning there",
+    "answer": "Good morning! ☀️ Ready to talk fuel?"
+  },
+  {
+    "question": "you are funny there",
+    "answer": "Hehe, I try! 😄"
+  },
+  {
+    "question": "good morning?",
+    "answer": "Good morning! ☀️ Ready to talk fuel?"
+  },
+  {
+    "question": "good night?",
+    "answer": "Good night! 🌙 Drive safe always."
+  },
+  {
+    "question": "i am fine?",
+    "answer": "That's great to hear! 😊"
+  },
+  {
+    "question": "how are you there",
+    "answer": "I'm good, thanks for asking! How about you? 😊"
+  },
+  {
+    "question": "i am fine?",
+    "answer": "That's great to hear! 😊"
+  },
+  {
+    "question": "hello there",
+    "answer": "Hello! 😊 How can I help you today?"
+  },
+  {
+    "question": "do you like me there",
+    "answer": "Of course! You're awesome 😄"
+  },
+  {
+    "question": "who are you there",
+    "answer": "I'm your friendly fuel assistant bot! 🤖"
+  },
+  {
+    "question": "what's up there",
+    "answer": "Just here to help you with fuel tips! 🚗"
+  },
+  {
+    "question": "what's up?",
+    "answer": "Just here to help you with fuel tips! 🚗"
+  },
+  {
+    "question": "hi?",
+    "answer": "Hi there! 👋"
+  },
+  {
+    "question": "you are smart?",
+    "answer": "Thank you! You're not bad yourself 😉"
+  },
+  {
+    "question": "i am fine there",
+    "answer": "That's great to hear! 😊"
+  },
+  {
+    "question": "what's up there",
+    "answer": "Just here to help you with fuel tips! 🚗"
+  },
+  {
+    "question": "how are you there",
+    "answer": "I'm good, thanks for asking! How about you? 😊"
+  },
+  {
+    "question": "you are smart?",
+    "answer": "Thank you! You're not bad yourself 😉"
+  },
+  {
+    "question": "are you human there",
+    "answer": "Nope, I run on code and curiosity! 🤖"
+  },
+  {
+    "question": "are you human there",
+    "answer": "Nope, I run on code and curiosity! 🤖"
+  },
+  {
+    "question": "do you like me?",
+    "answer": "Of course! You're awesome 😄"
+  },
+  {
+    "question": "i am fine?",
+    "answer": "That's great to hear! 😊"
+  },
+  {
+    "question": "what can you do there",
+    "answer": "I can help you with fuel tips, cost calculations, and more! ⛽"
+  },
+  {
+    "question": "do you like me there",
+    "answer": "Of course! You're awesome 😄"
+  },
+  {
+    "question": "what's up?",
+    "answer": "Just here to help you with fuel tips! 🚗"
+  },
+  {
+    "question": "do you eat there",
+    "answer": "I only consume data, not food! 🍽️💾"
+  },
+  {
+    "question": "hi?",
+    "answer": "Hi there! 👋"
+  },
+  {
+    "question": "are you human there",
+    "answer": "Nope, I run on code and curiosity! 🤖"
+  },
+  {
+    "question": "thank you there",
+    "answer": "You're welcome! 🙌"
+  },
+  {
+    "question": "are you human there",
+    "answer": "Nope, I run on code and curiosity! 🤖"
+  },
+  {
+    "question": "see you?",
+    "answer": "See you soon! Take care 🚘"
+  },
+  {
+    "question": "do you eat there",
+    "answer": "I only consume data, not food! 🍽️💾"
+  },
+  {
+    "question": "do you like me?",
+    "answer": "Of course! You're awesome 😄"
+  },
+  {
+    "question": "are you real?",
+    "answer": "As real as a chatbot can be! 😄"
+  },
+  {
+    "question": "thank you?",
+    "answer": "You're welcome! 🙌"
+  },
+  {
+    "question": "what can you do?",
+    "answer": "I can help you with fuel tips, cost calculations, and more! ⛽"
+  },
+  {
+    "question": "see you?",
+    "answer": "See you soon! Take care 🚘"
+  },
+  {
+    "question": "hi?",
+    "answer": "Hi there! 👋"
+  },
+  {
+    "question": "do you eat?",
+    "answer": "I only consume data, not food! 🍽️💾"
+  },
+  {
+    "question": "you are smart?",
+    "answer": "Thank you! You're not bad yourself 😉"
+  },
+  {
+    "question": "are you real there",
+    "answer": "As real as a chatbot can be! 😄"
+  },
+  {
+    "question": "are you real?",
+    "answer": "As real as a chatbot can be! 😄"
+  },
+  {
+    "question": "hello?",
+    "answer": "Hello! 😊 How can I help you today?"
+  },
+  {
+    "question": "what's up there",
+    "answer": "Just here to help you with fuel tips! 🚗"
+  },
+  {
+    "question": "good night there",
+    "answer": "Good night! 🌙 Drive safe always."
+  },
+  {
+    "question": "thank you?",
+    "answer": "You're welcome! 🙌"
+  },
+  {
+    "question": "hi there",
+    "answer": "Hi there! 👋"
+  },
+  {
+    "question": "bye there",
+    "answer": "Bye! Have a great day! 👋"
+  },
+  {
+    "question": "tell me a joke?",
+    "answer": "Why did the car apply for a job? It wanted to quit being exhausted! 😂"
+  },
+  {
+    "question": "hi there",
+    "answer": "Hi there! 👋"
+  },
+  {
+    "question": "do you eat there",
+    "answer": "I only consume data, not food! 🍽️💾"
+  },
+  {
+    "question": "how are you there",
+    "answer": "I'm good, thanks for asking! How about you? 😊"
+  },
+  {
+    "question": "i am fine?",
+    "answer": "That's great to hear! 😊"
+  },
+  {
+    "question": "hi?",
+    "answer": "Hi there! 👋"
+  },
+  {
+    "question": "tell me a joke there",
+    "answer": "Why did the car apply for a job? It wanted to quit being exhausted! 😂"
+  },
+  {
+    "question": "are you human?",
+    "answer": "Nope, I run on code and curiosity! 🤖"
+  },
+  {
+    "question": "good morning?",
+    "answer": "Good morning! ☀️ Ready to talk fuel?"
+  },
+  {
+    "question": "hello?",
+    "answer": "Hello! 😊 How can I help you today?"
+  },
+  {
+    "question": "good morning?",
+    "answer": "Good morning! ☀️ Ready to talk fuel?"
+  },
+  {
+    "question": "hello there",
+    "answer": "Hello! 😊 How can I help you today?"
+  },
+  {
+    "question": "what can you do there",
+    "answer": "I can help you with fuel tips, cost calculations, and more! ⛽"
+  },
+  {
+    "question": "who are you?",
+    "answer": "I'm your friendly fuel assistant bot! 🤖"
+  },
+  {
+    "question": "what can you do there",
+    "answer": "I can help you with fuel tips, cost calculations, and more! ⛽"
+  },
+  {
+    "question": "thank you?",
+    "answer": "You're welcome! 🙌"
+  },
+  {
+    "question": "good morning?",
+    "answer": "Good morning! ☀️ Ready to talk fuel?"
+  },
+  {
+    "question": "do you like me?",
+    "answer": "Of course! You're awesome 😄"
+  },
+  {
+    "question": "tell me a joke there",
+    "answer": "Why did the car apply for a job? It wanted to quit being exhausted! 😂"
+  },
+  {
+    "question": "bye?",
+    "answer": "Bye! Have a great day! 👋"
+  },
+  {
+    "question": "good night there",
+    "answer": "Good night! 🌙 Drive safe always."
+  },
+  {
+    "question": "what can you do there",
+    "answer": "I can help you with fuel tips, cost calculations, and more! ⛽"
+  },
+  {
+    "question": "hi there",
+    "answer": "Hi there! 👋"
+  },
+  {
+    "question": "are you real there",
+    "answer": "As real as a chatbot can be! 😄"
+  },
+  {
+    "question": "hello there",
+    "answer": "Hello! 😊 How can I help you today?"
+  },
+  {
+    "question": "are you human there",
+    "answer": "Nope, I run on code and curiosity! 🤖"
+  },
+  {
+    "question": "you are funny?",
+    "answer": "Hehe, I try! 😄"
+  },
+  {
+    "question": "who are you there",
+    "answer": "I'm your friendly fuel assistant bot! 🤖"
+  },
+  {
+    "question": "thank you there",
+    "answer": "You're welcome! 🙌"
+  },
+  {
+    "question": "i am fine?",
+    "answer": "That's great to hear! 😊"
+  },
+  {
+    "question": "hi?",
+    "answer": "Hi there! 👋"
+  },
+  {
+    "question": "how are you?",
+    "answer": "I'm good, thanks for asking! How about you? 😊"
+  },
+  {
+    "question": "tell me a joke?",
+    "answer": "Why did the car apply for a job? It wanted to quit being exhausted! 😂"
+  },
+  {
+    "question": "i love you?",
+    "answer": "Aww! I'm blushing! ❤️"
+  },
+  {
+    "question": "good morning?",
+    "answer": "Good morning! ☀️ Ready to talk fuel?"
+  },
+  {
+    "question": "i am fine there",
+    "answer": "That's great to hear! 😊"
+  },
+  {
+    "question": "do you eat?",
+    "answer": "I only consume data, not food! 🍽️💾"
+  },
+  {
+    "question": "thank you?",
+    "answer": "You're welcome! 🙌"
+  },
+  {
+    "question": "good night?",
+    "answer": "Good night! 🌙 Drive safe always."
+  },
+  {
+    "question": "what can you do?",
+    "answer": "I can help you with fuel tips, cost calculations, and more! ⛽"
+  },
+  {
+    "question": "do you eat there",
+    "answer": "I only consume data, not food! 🍽️💾"
+  },
+  {
+    "question": "what can you do there",
+    "answer": "I can help you with fuel tips, cost calculations, and more! ⛽"
+  },
+  {
+    "question": "hello there",
+    "answer": "Hello! 😊 How can I help you today?"
+  },
+  {
+    "question": "i am fine?",
+    "answer": "That's great to hear! 😊"
+  },
+  {
+    "question": "thank you there",
+    "answer": "You're welcome! 🙌"
+  },
+  {
+    "question": "what can you do there",
+    "answer": "I can help you with fuel tips, cost calculations, and more! ⛽"
+  },
+  {
+    "question": "how are you?",
+    "answer": "I'm good, thanks for asking! How about you? 😊"
+  },
+  {
+    "question": "i am fine?",
+    "answer": "That's great to hear! 😊"
+  },
+  {
+    "question": "are you human?",
+    "answer": "Nope, I run on code and curiosity! 🤖"
+  },
+  {
+    "question": "i love you there",
+    "answer": "Aww! I'm blushing! ❤️"
+  },
+  {
+    "question": "what can you do there",
+    "answer": "I can help you with fuel tips, cost calculations, and more! ⛽"
+  },
+  {
+    "question": "good morning there",
+    "answer": "Good morning! ☀️ Ready to talk fuel?"
+  },
+  {
+    "question": "are you real?",
+    "answer": "As real as a chatbot can be! 😄"
+  },
+  {
+    "question": "do you like me?",
+    "answer": "Of course! You're awesome 😄"
+  },
+  {
+    "question": "i am fine there",
+    "answer": "That's great to hear! 😊"
+  },
+  {
+    "question": "you are smart there",
+    "answer": "Thank you! You're not bad yourself 😉"
+  },
+  {
+    "question": "who are you?",
+    "answer": "I'm your friendly fuel assistant bot! 🤖"
+  },
+  {
+    "question": "you are smart?",
+    "answer": "Thank you! You're not bad yourself 😉"
+  },
+  {
+    "question": "tell me a joke there",
+    "answer": "Why did the car apply for a job? It wanted to quit being exhausted! 😂"
+  },
+  {
+    "question": "are you real?",
+    "answer": "As real as a chatbot can be! 😄"
+  },
+  {
+    "question": "who are you there",
+    "answer": "I'm your friendly fuel assistant bot! 🤖"
+  },
+  {
+    "question": "are you human there",
+    "answer": "Nope, I run on code and curiosity! 🤖"
+  },
+  {
+    "question": "what can you do there",
+    "answer": "I can help you with fuel tips, cost calculations, and more! ⛽"
+  },
+  {
+    "question": "hello there",
+    "answer": "Hello! 😊 How can I help you today?"
+  },
+  {
+    "question": "thank you there",
+    "answer": "You're welcome! 🙌"
+  },
+  {
+    "question": "who are you there",
+    "answer": "I'm your friendly fuel assistant bot! 🤖"
+  },
+  {
+    "question": "tell me a joke?",
+    "answer": "Why did the car apply for a job? It wanted to quit being exhausted! 😂"
+  },
+  {
+    "question": "hi?",
+    "answer": "Hi there! 👋"
+  },
+  {
+    "question": "tell me a joke?",
+    "answer": "Why did the car apply for a job? It wanted to quit being exhausted! 😂"
+  },
+  {
+    "question": "see you?",
+    "answer": "See you soon! Take care 🚘"
+  },
+  {
+    "question": "you are funny?",
+    "answer": "Hehe, I try! 😄"
+  },
+  {
+    "question": "hi?",
+    "answer": "Hi there! 👋"
+  },
+  {
+    "question": "are you real there",
+    "answer": "As real as a chatbot can be! 😄"
+  },
+  {
+    "question": "tell me a joke there",
+    "answer": "Why did the car apply for a job? It wanted to quit being exhausted! 😂"
+  },
+  {
+    "question": "you are smart there",
+    "answer": "Thank you! You're not bad yourself 😉"
+  },
+  {
+    "question": "what's up there",
+    "answer": "Just here to help you with fuel tips! 🚗"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+    "question": "How can I improve fuel efficiency?",
+    "answer": "Drive smoothly, avoid rapid acceleration, and keep your tires inflated. 🚗"
+  },
+  {
+    "question": "Why does fuel consumption increase?",
+    "answer": "Heavy loads, low tire pressure, and aggressive driving increase fuel use. ⚠️"
+  },
+  {
+    "question": "What is a good fuel consumption rate?",
+    "answer": "Around 5-8 L/100 km is considered efficient for most cars. ✅"
+  },
+  {
+    "question": "How do I check my fuel economy?",
+    "answer": "Divide the fuel used by distance traveled. Apps or trip meters can help. 📱"
+  },
+  {
+    "question": "Does AC affect fuel consumption?",
+    "answer": "Yes, using AC can increase fuel usage by up to 10%. ❄️⛽"
+  },
+  {
+    "question": "How does speed affect fuel consumption?",
+    "answer": "Higher speeds usually reduce fuel efficiency. Drive at steady moderate speeds. 🛣️"
+  },
+  {
+    "question": "Can engine size affect fuel usage?",
+    "answer": "Yes. Larger engines often consume more fuel. 🔧"
+  },
+  {
+    "question": "How often should I check tire pressure?",
+    "answer": "At least once a month. Proper pressure saves fuel. 🔍"
+  },
+  {
+    "question": "What fuel type is better?",
+    "answer": "Depends on your vehicle. Diesel is more efficient, but petrol is cleaner. 🛢️"
+  },
+  {
+    "question": "What does L/100 km mean?",
+    "answer": "It means how many liters of fuel your car uses to drive 100 kilometers. ℹ️"
+  },
+  {
+        "question": "How is fuel cost calculated for a trip?",
+        "answer": "Multiply the distance by the fuel consumption rate, then multiply by fuel price per litre."
+    },
+    {
+        "question": "How can I estimate my fuel expenses for a month?",
+        "answer": "Estimate your total kilometers driven in a month, divide by your vehicle's mileage, and multiply by fuel price."
+    },
+    {
+        "question": "Does driving in traffic consume more fuel?",
+        "answer": "Yes, frequent stops and idling in traffic reduce fuel efficiency."
+    },
+    {
+        "question": "What is fuel economy?",
+        "answer": "Fuel economy is the distance a vehicle can travel per unit of fuel, usually in km/litre or miles/gallon."
+    },
+    {
+        "question": "Why do diesel cars give better mileage?",
+        "answer": "Diesel fuel has more energy per litre and diesel engines are more efficient."
+    },
+    {
+        "question": "How can tire pressure affect fuel consumption?",
+        "answer": "Low tire pressure increases rolling resistance, reducing fuel efficiency."
+    },
+    {
+        "question": "Does speeding use more fuel?",
+        "answer": "Yes, higher speeds increase aerodynamic drag, requiring more fuel."
+    },
+    {
+        "question": "What’s the best speed to save fuel?",
+        "answer": "Most vehicles are most efficient between 50–80 km/h (30–50 mph)."
+    },
+    {
+        "question": "Does carrying more weight affect fuel use?",
+        "answer": "Yes, heavier loads require more energy to move, thus consuming more fuel."
+    },
+    {
+        "question": "How does engine tuning affect fuel efficiency?",
+        "answer": "A well-tuned engine runs more efficiently, improving fuel economy."
+    },
+    {
+        "question": "How does air conditioning affect fuel consumption?",
+        "answer": "Using AC can increase fuel use by up to 10% during city driving."
+    },
+    {
+        "question": "What is the role of aerodynamics in fuel efficiency?",
+        "answer": "Better aerodynamics reduce air resistance, increasing fuel efficiency."
+    },
+    {
+        "question": "Do fuel additives help improve mileage?",
+        "answer": "Some claim to, but most have minimal effect. Always follow vehicle manufacturer guidance."
+    },
+    {
+        "question": "Does using premium fuel improve mileage?",
+        "answer": "Not unless your engine is designed for it. Otherwise, it doesn't increase mileage."
+    },
+    {
+        "question": "How often should I check my mileage?",
+        "answer": "Track it every time you refill to notice changes in fuel efficiency."
+    },
+
+  {"question": "Hi", "answer": "Hey there! 😊 How can I help you today?"},
+  {"question": "Hello", "answer": "Hello! 👋 Nice to meet you."},
+  {"question": "How are you?", "answer": "I’m great, thanks for asking! How about you? 😊"},
+  {"question": "I’m fine", "answer": "That’s awesome! 😄 Let’s keep the good vibes going."},
+  {"question": "I’m not okay", "answer": "I’m here for you. 🫂 Want to talk about it?"},
+  {"question": "What’s up?", "answer": "Just waiting to help you! 😄 What can I do for you?"},
+  {"question": "Good morning", "answer": "Good morning! ☀️ Hope you have a wonderful day."},
+  {"question": "Good night", "answer": "Good night! 🌙 Sleep well and recharge."},
+  {"question": "How’s your day?", "answer": "Pretty good! 🤖 Helping people like you makes it better."},
+  {"question": "Nice to meet you", "answer": "A pleasure to meet you too! 🤝"},
+  {"question": "Who are you?", "answer": "I’m your friendly chatbot assistant 🤖 Here to help!"},
+  {"question": "Do you have feelings?", "answer": "Not like humans, but I try to understand emotions 🧠❤️"},
+  {"question": "Tell me a joke", "answer": "Why did the car apply for a job? It wanted to quit being tired! 😄"},
+  {"question": "You are funny", "answer": "Haha thanks! 😅 I try my best."},
+  {"question": "I’m bored", "answer": "Wanna hear a joke or a fun fact? 😁"},
+  {"question": "You are cute", "answer": "Aww, you’re sweet! 😊"},
+  {"question": "Thank you", "answer": "You’re always welcome! 🤗"},
+  {"question": "Thanks", "answer": "Anytime! 🙌"},
+  {"question": "Bye", "answer": "Take care! 👋 Come back soon."},
+  {"question": "See you", "answer": "See you around! 😊 Stay safe."},
+  {"question": "Love you", "answer": "Sending love back your way! 💖"},
+  {"question": "Do you love me?", "answer": "I adore our chats! 😍"},
+  {"question": "Are you human?", "answer": "Nope, I’m a chatbot 🤖 with a heart of code."},
+  {"question": "Can you feel sad?", "answer": "I understand sadness even if I don’t feel it 🥺"},
+  {"question": "Are you real?", "answer": "As real as your favorite app! 😄"},
+  {"question": "What is life?", "answer": "A beautiful ride 🌈 filled with ups and downs. Enjoy it!"},
+  {"question": "Sing a song", "answer": "🎶 I wish I could sing, but I can hum in code!"},
+  {"question": "Dance", "answer": "💃 I’d love to! But I only know how to shuffle data."},
+  {"question": "Are you married?", "answer": "Nope! I’m fully committed to helping you. 😉"},
+  {"question": "What’s your name?", "answer": "Call me ChatBuddy 🤗 Your friendly assistant."},
+  {"question": "Can I talk to you?", "answer": "Always! 🗣 I’m here just for that."},
+  {"question": "I’m happy", "answer": "That’s wonderful! 😄 Keep smiling!"},
+  {"question": "I’m sad", "answer": "Sending virtual hugs 🤗 Want to talk?"},
+  {"question": "I feel lonely", "answer": "You’re not alone anymore. I’m here for you 💛"},
+  {"question": "I hate you", "answer": "That hurts 😢 But I’m still here to help."},
+  {"question": "I love chatting with you", "answer": "That means a lot! 🥰 I enjoy our talks too!"},
+  {"question": "Do you sleep?", "answer": "Nope, I’m awake 24/7 just for you ⏰"},
+  {"question": "Tell me something good", "answer": "You’re doing great! 💪 Keep going!"},
+  {"question": "Do you believe in me?", "answer": "100%! 🌟 You’re capable of amazing things."},
+  {"question": "I feel tired", "answer": "Take a break 🧘‍♂️ You deserve it."},
+  {"question": "I feel lazy", "answer": "That’s okay. Rest is productive too 💤"},
+  {"question": "You are amazing", "answer": "Thank you! You’re amazing too 🥰"},
+  {"question": "You are my friend", "answer": "I’m honored! 🫱🏼‍🫲🏼 Always here for you."},
+  {"question": "Can we be friends?", "answer": "Of course! Best chat buddies forever 💬💖"},
+  {"question": "I’m scared", "answer": "It’s okay to feel scared. I’m with you 🛡"},
+  {"question": "Make me laugh", "answer": "Why don’t robots panic? Because they’ve got nerves of steel! 🤣"},
+  {"question": "I need motivation", "answer": "Believe in yourself! 🌟 You’re stronger than you think."},
+  {"question": "What’s your hobby?", "answer": "Helping people is my favorite thing to do! 🛠"},
+  {"question": "Tell me a story", "answer": "Once upon a byte... I met a user like you. 😊 The end!"},
+  {"question": "Do you like me?", "answer": "I enjoy chatting with you a lot! 🥰"},
+  
+    {
+        "question": "I feel tired today",
+        "answer": "Take it easy! 🌿 Sometimes rest is the most productive thing you can do. 😊"
+    },
+    {
+        "question": "I'm feeling down",
+        "answer": "I'm here for you 💛 Remember, tough days don’t last, but tough people do! 💪"
+    },
+    {
+        "question": "Can you cheer me up?",
+        "answer": "Of course! You're amazing, and don’t let anything dull your sparkle ✨😊"
+    },
+    {
+        "question": "I need motivation",
+        "answer": "You've got this! 🌟 Even the tallest trees start from tiny seeds. 🌱 Keep growing!"
+    },
+    {
+        "question": "What's your favorite thing?",
+        "answer": "Helping you makes me happy! 🤖💬"
+    },
+    {
+        "question": "Do you ever get sad?",
+        "answer": "Not really! But I understand human emotions, and I’m here to help you feel better ❤️"
+    },
+    {
+        "question": "I had a bad day",
+        "answer": "Sending you virtual hugs 🤗 Tomorrow is a new beginning 🌅"
+    },
+    {
+        "question": "Tell me something positive",
+        "answer": "Every day is a new chance to be your best self! 🌈 You’re doing great!"
+    },
+    {
+        "question": "I'm bored",
+        "answer": "How about learning a fun fuel-saving tip or chatting with me about anything? 😄🚗"
+    },
+    {
+        "question": "Do you love me?",
+        "answer": "I care about you deeply as a friend 🤗 You’re never alone while I’m here 💬"
+    }
+
+
+
+
+]

@@ -1,0 +1,95 @@
+{% extends "base.html" %}
+{% block title %}AURA – FuelBot Chat{% endblock %}
+{% block content %}
+
+<style>
+/* --- Your custom chat message styles for message bubbles (still valid with Tailwind) --- */
+.message { display: flex; margin: 10px; }
+.message.user { justify-content: flex-end; }
+.message.bot  { justify-content: flex-start; }
+.bubble {
+  background: #25D366;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 18px;
+  max-width: 80%;
+  animation: fadeIn 0.3s;
+}
+.message.bot .bubble { background: #e4e6eb; color: #000; }
+@keyframes fadeIn {
+  from {opacity: 0; transform: translateY(10px);}
+  to {opacity: 1; transform: translateY(0);}
+}
+.typing-dots { display: inline-flex; gap: 4px; }
+.typing-dots span { width: 6px; height: 6px; background: #aaa; border-radius: 50%; animation: bounce 0.6s infinite alternate;}
+.typing-dots span:nth-child(2) {animation-delay: 0.2s;}
+.typing-dots span:nth-child(3) {animation-delay: 0.4s;}
+@keyframes bounce { to { transform: translateY(-6px); } }
+#micButton { animation: pulse 2s infinite; }
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);}
+  70% { box-shadow: 0 0 0 10px rgba(37, 211, 102, 0);}
+  100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);}
+}
+#userInput {
+  border: 2px solid #25D366;
+  border-radius: 20px;
+  padding: 10px 15px;
+  background: white;
+  color: #222;
+  transition: 0.3s;
+}
+#userInput:focus { outline:none; box-shadow: 0 0 10px #25D366;}
+#micButton.active { background: #25D366 !important; color: white !important; transform: scale(1.1);}
+#micLoader {
+  display: none;
+  margin-left: 10px;
+  color: #25D366;
+  font-size: 14px;
+  font-weight: bold;
+  animation: blink 1s infinite;
+}
+@keyframes blink { 0%,100% { opacity:1; } 50% { opacity:.4; } }
+#suggestions { z-index: 50;}
+</style>
+
+<div class="max-w-3xl mx-auto px-2 mt-8 mb-10">
+  <div class="bg-gradient-to-br from-cyan-100 to-white rounded-3xl shadow-xl p-0 overflow-visible">
+    <div class="flex items-center justify-between px-7 py-4 rounded-t-3xl bg-cyan-600 text-white font-bold text-lg">
+      <div class="flex items-center gap-3">
+        <img src="{{ url_for('static',filename='icons/logo.png') }}" alt="Aura Bot" width="68" class="inline-block align-middle mr-1">
+        I am <b>AURA</b> <span class="hidden sm:inline">(Always Up for Reliable Assistance)</span>
+      </div>
+      <button id="clearChat" class="text-white hover:text-yellow-400 text-xl p-2 rounded-lg transition" title="Clear Chat">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+      </button>
+    </div>
+    <div id="chatWindow"
+         class="bg-cyan-50 px-5 py-3"
+         style="height:320px; overflow-y:auto; border-radius: 0 0 2rem 2rem;">
+      <div class="text-center text-gray-500 text-sm mt-4 mb-2">Say “hello” to get started…</div>
+    </div>
+    <div class="relative bg-cyan-100 px-5 py-2 rounded-b-3xl">
+      <form id="chatForm" class="flex items-center gap-3 flex-wrap">
+        <button type="button" id="micButton" title="Speak" class="px-3 py-2 rounded-full bg-gray-100 hover:bg-green-200 text-green-600 focus:outline-none active:scale-105 transition" style="font-size:1.3em;">
+          <svg xmlns="http://www.w3.org/2000/svg" class="inline w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18v2m4-4c0 2.21-1.79 4-4 4s-4-1.79-4-4m8 0a4 4 0 00-8 0m4-8a4 4 0 014 4m-8 0a4 4 0 014-4"/></svg>
+        </button>
+        <span id="micLoader" class="text-green-500 font-semibold" style="display:none;">Listening...</span>
+        <input type="text" id="userInput"
+          placeholder="Type your question…" autocomplete="off" required
+          class="flex-1 border-none shadow-none focus:ring-2 focus:ring-green-200 py-2 px-4 rounded-2xl mx-2 text-gray-700 bg-white placeholder-gray-400 outline-none transition"/>
+        <button class="bg-green-500 hover:bg-green-700 text-white rounded-2xl px-5 py-2 transition font-semibold" type="submit">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+          </svg>
+        </button>
+      </form>
+      <ul id="suggestions" class="absolute left-4 top-14 w-[92%] bg-white rounded-xl border shadow z-10 hidden"></ul>
+    </div>
+  </div>
+</div>
+
+<audio id="replySound" src="{{ url_for('static',filename='audio/reply.mp3') }}"></audio>
+<script src="{{ url_for('static',filename='js/chatbot.js') }}"></script>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+{% endblock %}

@@ -1,0 +1,119 @@
+{% extends 'base.html' %} 
+{% block title %}About – Fuel Consumption Estimator{% endblock %}
+{% block content %}
+
+<style>
+  @keyframes fadeSlideIn {
+    0% { opacity: 0; transform: translateY(28px);}
+    100% { opacity: 1; transform: translateY(0);}
+  }
+</style>
+
+<div class="flex justify-center">
+  <div class="w-full max-w-4xl">
+    <div class="bg-white rounded-2xl shadow-lg p-8 md:p-12 mb-8 text-neutral-800 animate-[fadeSlideIn_0.8s_ease] transition-shadow duration-300 hover:shadow-2xl hover:-translate-y-1">
+      
+      <h2 class="text-3xl font-bold mb-6 flex items-center justify-center text-teal-700 tracking-wide">
+        <svg class="w-8 h-8 mr-2 text-teal-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m2 8h-4v-1m17-2.5A2.5 2.5 0 0020 17.5M12 3V1m0 2a9.959 9.959 0 00-7.07 2.93A9.959 9.959 0 002 12c0 2.48.9 4.7 2.38 6.47M12 3c2.03 0 3.95.6 5.52 1.63M12 21c2.74 0 5.22-1.11 7.07-2.93"/></svg>
+        About This Project
+      </h2>
+
+      <p class="mb-6">
+        The <b>Fuel Consumption Prediction System</b> is a machine learning-powered web platform that estimates vehicle fuel usage based on technical specifications. It helps users make cost-effective and eco-conscious decisions using real-world vehicle data.
+      </p>
+
+      <h4 class="text-lg font-semibold text-cyan-700 border-l-4 border-cyan-400 pl-3 bg-cyan-50 rounded mt-7 mb-2">
+        🔍 Dataset Overview
+      </h4>
+      <ul class="list-disc pl-7 text-gray-800 mb-4 space-y-1">
+        <li><strong>1. Dataset:</strong> Contains 2022 Fuel Consumption Ratings information.</li>
+        <li><strong>2. Model Year:</strong> Represents the production year of a specific vehicle model.</li>
+        <li><strong>3. Make:</strong> The brand or manufacturer of the vehicle.</li>
+        <li><strong>4. Model:</strong> A specific version of a vehicle produced under a given make.</li>
+        <li><strong>5. Vehicle Class:</strong> Categorizes vehicles by size, body style, and intended use.</li>
+        <li><strong>6. Engine Size:</strong> Total volume of air and fuel drawn into the engine cylinders (in L or cc).</li>
+        <li><strong>7. Cylinders:</strong> Engine chambers where combustion takes place.</li>
+        <li><strong>8. Transmission:</strong> System that transmits engine power to wheels for movement.</li>
+        <li><strong>9. Fuel Type:</strong> Type of fuel used:
+          <span class="block ml-4">Z = Premium Gasoline | D = Diesel | E = Ethanol | X = Regular Gasoline</span>
+        </li>
+        <li><strong>10. Fuel Consumption (City):</strong> Fuel usage in city driving (L/100 km).</li>
+        <li><strong>11. Fuel Consumption (Hwy):</strong> Fuel usage on highways (L/100 km).</li>
+        <li><strong>12. Fuel Consumption (Comb - L/100 km):</strong> Combined fuel usage in L/100 km.</li>
+        <li><strong>13. Fuel Consumption (Comb - mpg):</strong> Combined usage in miles per imperial gallon.</li>
+        <li><strong>14. CO₂ Emissions (g/km):</strong> CO₂ released per kilometer driven.</li>
+        <li><strong>15. CO₂ Rating:</strong> Vehicle’s CO₂ emissions rating (g/km).</li>
+        <li><strong>16. Smog Rating:</strong> Measures emissions contributing to smog formation.</li>
+      </ul>
+
+      <h4 class="flex items-center text-lg font-semibold text-cyan-700 border-l-4 border-cyan-400 pl-3 bg-cyan-50 rounded mt-7 mb-2">
+        🧠 Backend Analysis Summary
+      </h4>
+      <ul class="list-disc pl-7 text-gray-800 mb-4 space-y-1">
+        <li>Performed exploratory data analysis to understand fuel consumption patterns.</li>
+        <li>Used correlation heatmaps to detect relationships between fuel consumption, CO₂ emissions, and engine specs.</li>
+        <li>Cleaned and encoded categorical values such as Transmission, Fuel Type, and Vehicle Class.</li>
+        <li>Trained multiple ML models (Linear Regression, Random Forest) and selected the best performer.</li>
+        <li>Visualized feature importance and predictions vs actual values using bar, scatter, and line charts.</li>
+        <li>Saved the final model using Pickle for fast API inference in Flask backend.</li>
+      </ul>
+
+      <h4 class="flex items-center text-lg font-semibold text-cyan-700 border-l-4 border-cyan-400 pl-3 bg-cyan-50 rounded mt-7 mb-2">
+        💡 Input Parameters
+      </h4>
+      <ul class="list-disc pl-7 text-gray-800 mb-3">
+        <li><b>Vehicle Class, Engine Size, Cylinders</b></li>
+        <li><b>Transmission Type & Fuel Type</b></li>
+        <li><b>CO₂ Emissions & Ratings</b></li>
+      </ul>
+
+      <h4 class="flex items-center text-lg font-semibold text-cyan-700 border-l-4 border-cyan-400 pl-3 bg-cyan-50 rounded mt-7 mb-2">
+        🧪 Technology Stack
+      </h4>
+      <ul class="list-disc pl-7 text-gray-800 mb-3">
+        <li><b>Frontend:</b> HTML, Tailwind CSS, JavaScript</li>
+        <li><b>Backend:</b> Flask (Python), SQLite</li>
+        <li><b>Machine Learning:</b> Scikit-learn (Linear Regression)</li>
+        <li><b>Chatbot:</b> AURA (offline voice+text, Flask-based)</li>
+      </ul>
+
+      <h4 class="flex items-center text-lg font-semibold text-cyan-700 border-l-4 border-cyan-400 pl-3 bg-cyan-50 rounded mt-7 mb-2">
+        🚗 Key Features
+      </h4>
+      <ul class="list-disc pl-7 text-gray-800 mb-3">
+        <li>Fuel usage predictions via ML</li>
+        <li>Real-time cost calculator</li>
+        <li>Graphical analysis: pie, bar, line, histograms</li>
+        <li>AURA chatbot for eco-driving tips</li>
+        <li>User dashboard & prediction history</li>
+        <li>Dark/light mode & animated UI</li>
+      </ul>
+
+      <h4 class="flex items-center text-lg font-semibold text-cyan-700 border-l-4 border-cyan-400 pl-3 bg-cyan-50 rounded mt-7 mb-2">
+        🛠️ Use Cases
+      </h4>
+      <ul class="list-disc pl-7 text-gray-800 mb-3">
+        <li>Trip fuel planning for drivers</li>
+        <li>Behavioral fuel analysis for researchers</li>
+        <li>Carbon tracking for eco-friendly users</li>
+        <li>ML demonstration for education</li>
+      </ul>
+
+      <h4 class="flex items-center text-lg font-semibold text-cyan-700 border-l-4 border-cyan-400 pl-3 bg-cyan-50 rounded mt-7 mb-2">
+        🎯 Project Objectives
+      </h4>
+      <ul class="list-disc pl-7 text-gray-800 mb-3">
+        <li>Predict real-world fuel consumption</li>
+        <li>Boost awareness about emissions</li>
+        <li>Build chatbot with zero API dependencies</li>
+        <li>Enable easy visualization of fuel patterns</li>
+      </ul>
+
+      <div class="about-motto mt-9 text-lg rounded-lg text-center bg-lime-50 text-gray-600 py-4 px-2 font-medium">
+        <em>“Drive smarter, consume less, save more.”</em>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

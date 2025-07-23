@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <title>Fuel Consumption Prediction</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- AOS Animation CDN -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- Custom Font (optional) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .theme-controls { z-index: 1000; }
+
+    @keyframes chatPulse {
+      0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7); }
+      70% { transform: scale(1.05); box-shadow: 0 0 0 12px rgba(34, 197, 94, 0); }
+      100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(34, 197, 94, 0); }
+    }
+
+    #chatbotFloatingBtn {
+      animation: chatPulse 2s infinite;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+  <!-- Hero Header -->
+  <header class="bg-gradient-to-br from-cyan-700 to-cyan-300 text-white px-6 py-12 shadow-xl">
+    <div class="text-center" data-aos="fade-down">
+      <h1 class="text-4xl md:text-5xl font-extrabold flex justify-center items-center gap-3 mb-4">
+        <i class="fa-solid fa-gas-pump text-yellow-400 text-4xl"></i>
+        FuelPredict 🚗
+      </h1>
+      <p class="text-lg md:text-xl font-medium text-cyan-100">
+        Fuel Efficiency, Reimagined with Machine Learning.
+      </p>
+    </div>
+  </header>
+
+  <!-- Navigation -->
+  {% if session.user_id %}
+  <nav class="bg-white shadow-md py-3 px-6 flex justify-between items-center text-cyan-800">
+    <!-- Left side: Main nav links -->
+    <div class="flex items-center gap-6">
+      <a href="{{ url_for('home') }}" class="text-lg font-semibold hover:text-cyan-600 transition">Home</a>
+      <a href="{{ url_for('dashboard') }}" class="hover:text-cyan-600">Dashboard</a>
+      <a href="{{ url_for('predict') }}" class="hover:text-cyan-600">Predict</a>
+      <a href="{{ url_for('fuel_types') }}" class="hover:text-cyan-600">Fuel Types</a>
+      <a href="{{ url_for('calculator') }}" class="hover:text-cyan-600">Calculator</a>
+      <a href="{{ url_for('analysis') }}" class="hover:text-cyan-600">Analysis</a>
+      <a href="{{ url_for('chatbot') }}" class="hover:text-cyan-600">Chatbot</a>
+    </div>
+
+    <!-- Right side: About & Logout -->
+    <div class="flex items-center gap-4">
+      <a href="{{ url_for('about') }}" class="hover:text-cyan-600">About</a>
+      <a href="{{ url_for('logout') }}" class="text-red-500 hover:underline">Logout</a>
+    </div>
+  </nav>
+  {% endif %}
+
+  <!-- SVG Wave -->
+  <div class="wave-container relative -mt-1" style="height: 30px;">
+    <svg viewBox="0 0 1200 100" width="100%" height="100%" preserveAspectRatio="none">
+      <path d="M0,0 C300,100 900,0 1200,100 L1200,00 L0,0 Z" fill="#06b6d4" opacity="0.15"></path>
+    </svg>
+  </div>
+
+  <!-- Theme & Font Controls -->
+  <div class="theme-controls fixed top-6 right-6 bg-white bg-opacity-90 text-cyan-700 px-4 py-2 rounded-md text-sm shadow-lg flex items-center gap-2 font-medium">
+    Text Size:
+    <button onclick="resizeText('+')" class="px-2 font-extrabold">A+</button>
+    <button onclick="resizeText('0')" class="px-2">A</button>
+    <button onclick="resizeText('-')" class="px-2 font-bold">A-</button>
+    <button onclick="toggleTheme()" id="theme-toggle" class="ml-2 px-2">🌙</button>
+  </div>
+
+  <!-- Main Content Block -->
+  <main class="container mx-auto max-w-5xl px-4 py-10" data-aos="fade-up">
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        {% for cat, msg in messages %}
+          <div class="mb-3 px-4 py-2 rounded-lg font-semibold shadow
+            {% if cat=='success' %} bg-green-100 text-green-800
+            {% elif cat=='warning' %} bg-yellow-100 text-yellow-700
+            {% else %} bg-red-100 text-red-800 {% endif %}">
+            <span>{{msg}}</span>
+            <button onclick="this.parentElement.style.display='none'" class="float-right text-lg ml-2">×</button>
+          </div>
+        {% endfor %}
+      {% endif %}
+    {% endwith %}
+    {% block content %}{% endblock %}
+  </main>
+
+  <!-- ✅ Floating Chatbot Button (Hidden on login, signup, logout) -->
+  {% if request.endpoint not in ['login', 'signup', 'logout'] %}
+  <a href="{{ url_for('chatbot') }}"
+     class="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg transition duration-300 ease-in-out"
+     title="Chat with FuelBot"
+     id="chatbotFloatingBtn">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M17 8h2a2 2 0 012 2v7a2 2 0 01-2 2H7l-4 4V6a2 2 0 012-2h2"/>
+    </svg>
+  </a>
+  {% endif %}
+
+  <!-- Scripts -->
+  <script>
+    AOS.init();
+    function resizeText(level) {
+      const html = document.documentElement;
+      let current = parseInt(getComputedStyle(html).fontSize);
+      if (level === '+') html.style.fontSize = (current + 2) + 'px';
+      else if (level === '-') html.style.fontSize = (current - 2) + 'px';
+      else html.style.fontSize = '16px';
+    }
+    function toggleTheme() {
+      const doc = document.documentElement;
+      const current = doc.getAttribute('data-theme');
+      const next = current === 'light' ? 'dark' : 'light';
+      doc.setAttribute('data-theme', next);
+      document.getElementById('theme-toggle').textContent =
+        next === 'light' ? '🌙' : '☀️';
+      document.body.className = next === 'dark' ? "bg-gray-900 text-gray-100" : "bg-gray-50 text-gray-900";
+    }
+  </script>
+</body>
+</html>

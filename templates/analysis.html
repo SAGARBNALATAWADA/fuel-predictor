@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+{% block title %}Fuel Consumption Analysis{% endblock %}
+{% block content %}
+
+<!-- Tailwind: Analysis Page Styles -->
+<div class="max-w-5xl mx-auto px-3 mt-8 mb-6">
+  <h2 class="flex items-center justify-center font-bold text-3xl md:text-4xl mb-10 text-teal-700 tracking-tight space-x-3">
+    <!-- Pie chart icon, Heroicons outline style -->
+    <svg xmlns="http://www.w3.org/2000/svg" class="w-9 h-9 mr-2 text-orange-400 flex-shrink-0"
+      fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 3.75a8.25 8.25 0 108.25 8.25"/>
+      <path stroke-linecap="round" stroke-linejoin="round" d="M12 12L19.0742 6.92578"/>
+    </svg>
+    Fuel Consumption Analysis
+  </h2>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-7 analysis-cards">
+    <!-- Fuel Type Pie Chart -->
+    <div class="bg-white rounded-2xl shadow-md hover:shadow-xl transition-shadow">
+      <div class="px-6 py-6 flex flex-col items-center">
+        <div class="flex items-center text-cyan-600 font-semibold text-lg mb-3">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M11.25 3.75a8.25 8.25 0 108.25 8.25"/></svg>
+          Pie Chart: Fuel Type Usage
+        </div>
+        <img src="{{ url_for('static', filename='analysis/fuel_type_pie.png') }}" alt="Fuel Pie Chart" class="w-full rounded-lg shadow hover:shadow-md transition-shadow duration-200 bg-white object-contain my-2">
+      </div>
+    </div>
+    <!-- CO2 Bar Chart -->
+    <div class="bg-white rounded-2xl shadow-md hover:shadow-xl transition-shadow">
+      <div class="px-6 py-6 flex flex-col items-center">
+        <div class="flex items-center text-cyan-600 font-semibold text-lg mb-3">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M3 17v-7a4 4 0 014-4h8a4 4 0 014 4v7"/><path stroke-linecap="round" stroke-linejoin="round" d="M6 10v7M18 10v7"/></svg>
+          Bar Graph: CO₂ Ratings Distribution
+        </div>
+        <img src="{{ url_for('static', filename='analysis/co2_bar.png') }}" alt="CO2 Bar Chart" class="w-full rounded-lg shadow hover:shadow-md transition-shadow duration-200 bg-white object-contain my-2">
+      </div>
+    </div>
+    <!-- Fuel Efficiency Line Graph -->
+    <div class="bg-white rounded-2xl shadow-md hover:shadow-xl transition-shadow">
+      <div class="px-6 py-6 flex flex-col items-center">
+        <div class="flex items-center text-cyan-600 font-semibold text-lg mb-3">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M3 15l6.5-6.5L17 17"/></svg>
+          Line Graph: Fuel Efficiency Over Time
+        </div>
+        <img src="{{ url_for('static', filename='analysis/fuel_line.png') }}" alt="Fuel Line Graph" class="w-full rounded-lg shadow hover:shadow-md transition-shadow duration-200 bg-white object-contain my-2">
+      </div>
+    </div>
+    <!-- Engine Size Histogram -->
+    <div class="bg-white rounded-2xl shadow-md hover:shadow-xl transition-shadow">
+      <div class="px-6 py-6 flex flex-col items-center">
+        <div class="flex items-center text-cyan-600 font-semibold text-lg mb-3">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><rect width="3" height="10" x="2" y="12" rx="1"/><rect width="3" height="6" x="7" y="16" rx="1"/><rect width="3" height="14" x="12" y="8" rx="1"/><rect width="3" height="8" x="17" y="14" rx="1"/></svg>
+          Histogram: Engine Size Distribution
+        </div>
+        <img src="{{ url_for('static', filename='analysis/engine_hist.png') }}" alt="Engine Histogram" class="w-full rounded-lg shadow hover:shadow-md transition-shadow duration-200 bg-white object-contain my-2">
+      </div>
+    </div>
+  </div>
+
+  <div class="w-full flex justify-center mt-12">
+    <a href="{{ url_for('dashboard') }}" class="inline-flex items-center px-5 py-2 rounded-lg bg-blue-600 text-white font-semibold hover:bg-blue-700 transition-colors text-lg shadow">
+      <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
+      Back to Dashboard
+    </a>
+  </div>
+</div>
+{% endblock %}

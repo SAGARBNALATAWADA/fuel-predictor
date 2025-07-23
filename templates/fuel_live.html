@@ -1,0 +1,102 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="max-w-2xl mx-auto mt-8 mb-8 px-4 py-6 bg-white rounded-xl shadow-lg">
+  <h2 class="mb-6 text-center text-2xl font-bold tracking-wide text-cyan-700 flex items-center justify-center">
+    <span class="mr-2">📍</span> Check Live Fuel Prices
+  </h2>
+
+  <div class="flex flex-wrap gap-3 mb-4 justify-center">
+    <div class="w-full sm:w-5/12">
+      <select id="stateDropdown" class="block w-full border rounded-lg px-4 py-2 bg-gray-50 focus:ring-2 focus:ring-cyan-300 focus:outline-none text-lg">
+        <option value="">Choose State</option>
+      </select>
+    </div>
+    <div class="w-full sm:w-5/12">
+      <select id="districtDropdown" class="block w-full border rounded-lg px-4 py-2 bg-gray-50 focus:ring-2 focus:ring-cyan-300 focus:outline-none text-lg" disabled>
+        <option value="">Choose City</option>
+      </select>
+    </div>
+    <div class="w-full sm:w-[18%] flex items-center">
+      <button id="getPriceBtn" class="w-full bg-blue-600 hover:bg-blue-700 text-white rounded-lg px-3 py-2 font-semibold shadow transition disabled:bg-blue-400" disabled>Get Prices</button>
+    </div>
+  </div>
+
+  <div id="priceResult" class="text-center mt-6"></div>
+</div>
+
+<script>
+const stateDropdown = document.getElementById("stateDropdown");
+const districtDropdown = document.getElementById("districtDropdown");
+const priceBtn = document.getElementById("getPriceBtn");
+const priceResult = document.getElementById("priceResult");
+
+// Load states
+fetch("/api/fuel/states")
+  .then(res => res.json())
+  .then(data => {
+    const states = data.states || [];
+    stateDropdown.innerHTML = '<option value="">Choose State</option>';
+    states.forEach(state => {
+      const opt = document.createElement("option");
+      opt.value = state.stateName;
+      opt.textContent = state.stateName;
+      stateDropdown.appendChild(opt);
+    });
+    stateDropdown.disabled = false;
+  });
+
+stateDropdown.addEventListener("change", () => {
+  const state = stateDropdown.value;
+  districtDropdown.innerHTML = '<option value="">Choose City</option>';
+  districtDropdown.disabled = true;
+  priceBtn.disabled = true;
+  priceResult.innerHTML = "";
+  if (!state) return;
+  fetch(`/api/fuel/districts?state=${state}`)
+    .then(res => res.json())
+    .then(data => {
+      const districts = data.districts || [];
+      districts.forEach(dist => {
+        const opt = document.createElement("option");
+        opt.value = dist;
+        opt.textContent = dist;
+        districtDropdown.appendChild(opt);
+      });
+      districtDropdown.disabled = false;
+    });
+});
+
+districtDropdown.addEventListener("change", () => {
+  priceBtn.disabled = !(stateDropdown.value && districtDropdown.value);
+});
+
+priceBtn.addEventListener("click", () => {
+  const state = stateDropdown.value;
+  const district = districtDropdown.value;
+  priceResult.innerHTML = "";
+  if (!state || !district) {
+    priceResult.innerHTML = "<p class='text-yellow-800 font-semibold'>Please select both state and city.</p>";
+    return;
+  }
+  fetch(`/api/fuel/price?state=${state}&district=${district}`)
+    .then(res => res.json())
+    .then(data => {
+      if (data.error) {
+        priceResult.innerHTML = `<p class='text-red-700 font-semibold'>${data.error}</p>`;
+        return;
+      }
+      priceResult.innerHTML = `
+        <div class="mt-5 p-6 bg-cyan-50 rounded-lg shadow text-left inline-block">
+          <h5 class="text-lg font-bold mb-4 text-cyan-700">Fuel Prices in ${district}, ${state}</h5>
+          <ul class="divide-y divide-cyan-200 text-cyan-900">
+            <li class="py-2"><span class="font-semibold">Petrol:</span> ₹${data.petrol}</li>
+            <li class="py-2"><span class="font-semibold">Diesel:</span> ₹${data.diesel}</li>
+            <li class="py-2"><span class="font-semibold">CNG:</span> ₹${data.cng}</li>
+          </ul>
+        </div>
+      `;
+    });
+});
+</script>
+{% endblock %}
